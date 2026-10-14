@@ -1,0 +1,40 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "docs/data/pipeline.enc"
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt -r requirements-dev.txt
+      - name: Guarded terms
+        run: |
+          python tools/guard_terms.py --tree HEAD
+          python tools/guard_terms.py --log HEAD
+      - name: Unit tests
+        run: python -m pytest tests -q
+      - name: Demo data is fresh and valid
+        run: |
+          python -m scanner demo --out /tmp/demo.json --seed 7
+          python - <<'EOF'
+          import json, jsonschema
+          jsonschema.validate(json.load(open("/tmp/demo.json")), json.load(open("scanner/schema.json")))
+          jsonschema.validate(json.load(open("docs/data/demo.json")), json.load(open("scanner/schema.json")))
+          print("demo data valid")
+          EOF

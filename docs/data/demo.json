@@ -1,0 +1,3746 @@
+{
+ "version": 1,
+ "generated_at": "2026-10-14T18:00:00Z",
+ "scan_window_start": "2026-10-01",
+ "stages": [
+  {
+   "id": "applied",
+   "label": "Applied",
+   "kind": "active"
+  },
+  {
+   "id": "recruiter_screen",
+   "label": "Recruiter screen",
+   "kind": "active"
+  },
+  {
+   "id": "hiring_manager",
+   "label": "Hiring manager",
+   "kind": "active"
+  },
+  {
+   "id": "technical",
+   "label": "Technical",
+   "kind": "active"
+  },
+  {
+   "id": "onsite",
+   "label": "Onsite / panel",
+   "kind": "active"
+  },
+  {
+   "id": "offer",
+   "label": "Offer",
+   "kind": "active"
+  },
+  {
+   "id": "accepted",
+   "label": "Accepted",
+   "kind": "terminal"
+  },
+  {
+   "id": "rejected",
+   "label": "Rejected",
+   "kind": "terminal"
+  },
+  {
+   "id": "withdrew",
+   "label": "Withdrew",
+   "kind": "terminal"
+  },
+  {
+   "id": "ghosted",
+   "label": "Ghosted",
+   "kind": "terminal"
+  }
+ ],
+ "applications": [
+  {
+   "id": "app_3d3c93",
+   "company": "Oakmont Insurance",
+   "role": "BI Engineer",
+   "source": "ashby",
+   "applied_at": "2026-10-09",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-09T14:35:00Z",
+     "message_id": "m_7622db72",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-14T14:35:00Z",
+     "message_id": "m_c2dcbade",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_7622db72",
+    "m_cb52acec",
+    "m_c2dcbade"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-14T14:35:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_0ae239",
+   "company": "Umbra Security",
+   "role": "Data Engineering Manager",
+   "source": "linkedin",
+   "applied_at": "2026-10-10",
+   "current_stage": "technical",
+   "terminal": false,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-10T12:45:00Z",
+     "message_id": "m_59ae7d9a",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "recruiter_screen",
+     "at": "2026-10-11T12:45:00Z",
+     "message_id": "m_5630fb2a",
+     "evidence": "email"
+    },
+    {
+     "stage": "technical",
+     "at": "2026-10-14T12:45:00Z",
+     "message_id": "m_0e95ef57",
+     "evidence": "calendar_invite"
+    }
+   ],
+   "contact_ids": [
+    "c_411eb5cb"
+   ],
+   "message_ids": [
+    "m_59ae7d9a",
+    "m_5630fb2a",
+    "m_0e95ef57",
+    "m_9541b806"
+   ],
+   "event_ids": [
+    "e_04"
+   ],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-14T13:45:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_a7da8e",
+   "company": "Glasshouse Retail",
+   "role": "Senior Data Engineer",
+   "source": "smartrecruiters",
+   "applied_at": "2026-10-08",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-08T15:00:00Z",
+     "message_id": "m_1219e3d5",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-13T15:00:00Z",
+     "message_id": "m_d1e4750d",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_1219e3d5",
+    "m_150a1c74",
+    "m_d1e4750d"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-13T15:00:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_64558d",
+   "company": "Brightwater Labs",
+   "role": "Lead Analytics Engineer",
+   "source": "greenhouse",
+   "applied_at": "2026-10-04",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-04T15:00:00Z",
+     "message_id": "m_195defb4",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "recruiter_screen",
+     "at": "2026-10-06T15:00:00Z",
+     "message_id": "m_80d823c7",
+     "evidence": "email"
+    },
+    {
+     "stage": "hiring_manager",
+     "at": "2026-10-10T15:00:00Z",
+     "message_id": "m_107a4bd2",
+     "evidence": "email"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-13T15:00:00Z",
+     "message_id": "m_c39d3057",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [
+    "c_428da0f6",
+    "c_58e40337"
+   ],
+   "message_ids": [
+    "m_195defb4",
+    "m_80d823c7",
+    "m_51976960",
+    "m_107a4bd2",
+    "m_c39d3057"
+   ],
+   "event_ids": [
+    "e_01"
+   ],
+   "description": {
+    "url": "https://boards.greenhouse.io/brightwaterlabs/jobs/4283583",
+    "text": "Brightwater Labs is building the data foundation for a growing business, and the Lead Analytics Engineer will own how data moves from source systems into the warehouse.\n\nDay to day you will work with analysts and product managers to turn messy operational data into models people trust.\n\nThe team is small and remote friendly. We review each other's work, write things down, and prefer simple systems that stay up.",
+    "source": "greenhouse",
+    "fetched_at": "2026-10-04T15:05:00Z"
+   },
+   "notes": "",
+   "last_activity_at": "2026-10-13T15:00:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_ba2534",
+   "company": "Alderbank",
+   "role": "Principal Data Engineer",
+   "source": "company_site",
+   "applied_at": "2026-10-04",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-04T13:50:00Z",
+     "message_id": "m_4fbddda4",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "recruiter_screen",
+     "at": "2026-10-05T13:50:00Z",
+     "message_id": "m_19baed68",
+     "evidence": "email"
+    },
+    {
+     "stage": "technical",
+     "at": "2026-10-08T13:50:00Z",
+     "message_id": "m_879e61db",
+     "evidence": "email"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-13T13:50:00Z",
+     "message_id": "m_56222d53",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [
+    "c_b050543c"
+   ],
+   "message_ids": [
+    "m_4fbddda4",
+    "m_19baed68",
+    "m_879e61db",
+    "m_be88e757",
+    "m_56222d53"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-13T13:50:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_6e98d3",
+   "company": "Juniper Row",
+   "role": "Data Engineering Manager",
+   "source": "indeed",
+   "applied_at": "2026-10-11",
+   "current_stage": "applied",
+   "terminal": false,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-11T13:45:00Z",
+     "message_id": "m_d729f73b",
+     "evidence": "confirmation"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_d729f73b",
+    "m_40f0fbb7",
+    "m_6aee40e3"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-13T13:45:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_38f3cf",
+   "company": "Quillfeather",
+   "role": "Analytics Engineer",
+   "source": "icims",
+   "applied_at": "2026-10-09",
+   "current_stage": "withdrew",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-09T12:45:00Z",
+     "message_id": "m_677d7ef7",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "recruiter_screen",
+     "at": "2026-10-10T12:45:00Z",
+     "message_id": "m_c1acf4e0",
+     "evidence": "email"
+    },
+    {
+     "stage": "withdrew",
+     "at": "2026-10-13T12:45:00Z",
+     "message_id": "m_960875cb",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [
+    "c_3a0729cf"
+   ],
+   "message_ids": [
+    "m_677d7ef7",
+    "m_c1acf4e0",
+    "m_719e21b0",
+    "m_960875cb"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-13T12:45:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_6c6e41",
+   "company": "Lanternworks",
+   "role": "Analytics Engineer",
+   "source": "linkedin",
+   "applied_at": "2026-10-01",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-01T13:10:00Z",
+     "message_id": "m_96535e02",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "recruiter_screen",
+     "at": "2026-10-02T13:10:00Z",
+     "message_id": "m_8b82541e",
+     "evidence": "email"
+    },
+    {
+     "stage": "technical",
+     "at": "2026-10-05T13:10:00Z",
+     "message_id": "m_218e1615",
+     "evidence": "email"
+    },
+    {
+     "stage": "onsite",
+     "at": "2026-10-09T13:10:00Z",
+     "message_id": "m_f95aa307",
+     "evidence": "email"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-12T13:10:00Z",
+     "message_id": "m_42d9a9e7",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [
+    "c_7c46d339",
+    "c_e2f1d271"
+   ],
+   "message_ids": [
+    "m_96535e02",
+    "m_8b82541e",
+    "m_218e1615",
+    "m_f95aa307",
+    "m_42d9a9e7"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-12T13:10:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_7e4c76",
+   "company": "Emberlight Health",
+   "role": "Analytics Engineer",
+   "source": "workday",
+   "applied_at": "2026-10-07",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-07T12:35:00Z",
+     "message_id": "m_8f41db90",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-12T12:35:00Z",
+     "message_id": "m_53f3ed69",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_8f41db90",
+    "m_aa6e0742",
+    "m_53f3ed69"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-12T12:35:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_9636d8",
+   "company": "Verdant Grid",
+   "role": "Data Engineering Manager",
+   "source": "linkedin",
+   "applied_at": "2026-10-02",
+   "current_stage": "accepted",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-02T12:30:00Z",
+     "message_id": "m_1661ef70",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "recruiter_screen",
+     "at": "2026-10-03T12:30:00Z",
+     "message_id": "m_a2f61ac9",
+     "evidence": "email"
+    },
+    {
+     "stage": "technical",
+     "at": "2026-10-05T12:30:00Z",
+     "message_id": "m_45169955",
+     "evidence": "email"
+    },
+    {
+     "stage": "onsite",
+     "at": "2026-10-08T12:30:00Z",
+     "message_id": "m_725ce8eb",
+     "evidence": "email"
+    },
+    {
+     "stage": "offer",
+     "at": "2026-10-10T12:30:00Z",
+     "message_id": "m_e1842516",
+     "evidence": "email"
+    },
+    {
+     "stage": "accepted",
+     "at": "2026-10-11T14:30:00Z",
+     "message_id": "m_64427e9d",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [
+    "c_407410c8",
+    "c_d3217184"
+   ],
+   "message_ids": [
+    "m_1661ef70",
+    "m_a2f61ac9",
+    "m_45169955",
+    "m_725ce8eb",
+    "m_e1842516",
+    "m_64427e9d"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-11T14:30:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_4c6988",
+   "company": "Harbor & Pine",
+   "role": "Senior Analytics Engineer",
+   "source": "indeed",
+   "applied_at": "2026-10-06",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-06T14:05:00Z",
+     "message_id": "m_524f99a1",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-11T14:05:00Z",
+     "message_id": "m_be3b62ae",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_524f99a1",
+    "m_12a4a09a",
+    "m_be3b62ae"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-11T14:05:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_2f101c",
+   "company": "Redwood Ledger",
+   "role": "Machine Learning Engineer",
+   "source": "lever",
+   "applied_at": "2026-10-04",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-04T15:05:00Z",
+     "message_id": "m_8ec1a128",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "recruiter_screen",
+     "at": "2026-10-06T15:05:00Z",
+     "message_id": "m_89831c8c",
+     "evidence": "email"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-10T15:05:00Z",
+     "message_id": "m_fe0f6180",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [
+    "c_2e98e916"
+   ],
+   "message_ids": [
+    "m_8ec1a128",
+    "m_89831c8c",
+    "m_27b91859",
+    "m_fe0f6180"
+   ],
+   "event_ids": [],
+   "description": {
+    "url": "https://jobs.lever.co/redwoodledger/16f3b19c-0000-4000-8000-000000000000",
+    "text": "Redwood Ledger is building the data foundation for a growing business, and the Machine Learning Engineer will own how data moves from source systems into the warehouse.\n\nYou will design and maintain batch and streaming pipelines, keep them tested, and make them cheap to run.\n\nDay to day you will work with analysts and product managers to turn messy operational data into models people trust.\n\nWe use SQL and Python heavily, with an orchestrator, a cloud warehouse, and dbt style transformations. Prior experience with any similar stack is fine.",
+    "source": "lever",
+    "fetched_at": "2026-10-04T15:10:00Z"
+   },
+   "notes": "",
+   "last_activity_at": "2026-10-10T15:05:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_66b94c",
+   "company": "Fieldstone Capital",
+   "role": "Senior Data Engineer",
+   "source": "indeed",
+   "applied_at": "2026-10-07",
+   "current_stage": "recruiter_screen",
+   "terminal": false,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-07T14:40:00Z",
+     "message_id": "m_1d043453",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "recruiter_screen",
+     "at": "2026-10-09T14:40:00Z",
+     "message_id": "m_a0d02b39",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [
+    "c_f9f134a3"
+   ],
+   "message_ids": [
+    "m_1d043453",
+    "m_a0d02b39",
+    "m_fcb0dfbf",
+    "m_89f1a3c2"
+   ],
+   "event_ids": [
+    "e_02"
+   ],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-10T14:40:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_53dd99",
+   "company": "Pinecrest Media",
+   "role": "Data Platform Engineer",
+   "source": "greenhouse",
+   "applied_at": "2026-10-04",
+   "current_stage": "onsite",
+   "terminal": false,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-04T14:15:00Z",
+     "message_id": "m_fd80f4e0",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "recruiter_screen",
+     "at": "2026-10-05T14:15:00Z",
+     "message_id": "m_afc4bd0c",
+     "evidence": "email"
+    },
+    {
+     "stage": "technical",
+     "at": "2026-10-07T14:15:00Z",
+     "message_id": "m_68654faa",
+     "evidence": "email"
+    },
+    {
+     "stage": "onsite",
+     "at": "2026-10-10T14:15:00Z",
+     "message_id": "m_ba631521",
+     "evidence": "calendar_invite"
+    }
+   ],
+   "contact_ids": [
+    "c_56a969ef",
+    "c_bc4f20d1"
+   ],
+   "message_ids": [
+    "m_fd80f4e0",
+    "m_afc4bd0c",
+    "m_68654faa",
+    "m_ba631521"
+   ],
+   "event_ids": [
+    "e_03"
+   ],
+   "description": {
+    "url": "https://boards.greenhouse.io/pinecrestmedia/jobs/4726161",
+    "text": "Pinecrest Media is building the data foundation for a growing business, and the Data Platform Engineer will own how data moves from source systems into the warehouse.\n\nYou will design and maintain batch and streaming pipelines, keep them tested, and make them cheap to run.\n\nDay to day you will work with analysts and product managers to turn messy operational data into models people trust.\n\nWe use SQL and Python heavily, with an orchestrator, a cloud warehouse, and dbt style transformations. Prior experience with any similar stack is fine.\n\nYou should be comfortable owning a problem end to end: scoping it, building it, monitoring it, and explaining the result to non-engineers.\n\nThe team is small and remote friendly. We review each other's work, write things down, and prefer simple systems that stay up.",
+    "source": "greenhouse",
+    "fetched_at": "2026-10-04T14:20:00Z"
+   },
+   "notes": "",
+   "last_activity_at": "2026-10-10T14:15:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_0e69aa",
+   "company": "Cedarline Systems",
+   "role": "Data Engineering Manager",
+   "source": "linkedin",
+   "applied_at": "2026-10-02",
+   "current_stage": "offer",
+   "terminal": false,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-02T14:15:00Z",
+     "message_id": "m_caddecf8",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "recruiter_screen",
+     "at": "2026-10-03T14:15:00Z",
+     "message_id": "m_f98f0196",
+     "evidence": "email"
+    },
+    {
+     "stage": "technical",
+     "at": "2026-10-05T14:15:00Z",
+     "message_id": "m_490f1ffb",
+     "evidence": "email"
+    },
+    {
+     "stage": "onsite",
+     "at": "2026-10-08T14:15:00Z",
+     "message_id": "m_4dc0651a",
+     "evidence": "email"
+    },
+    {
+     "stage": "offer",
+     "at": "2026-10-10T14:15:00Z",
+     "message_id": "m_70526ac9",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [
+    "c_36a61e6b",
+    "c_55dac448"
+   ],
+   "message_ids": [
+    "m_caddecf8",
+    "m_f98f0196",
+    "m_490f1ffb",
+    "m_4dc0651a",
+    "m_70526ac9"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-10T14:15:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_ce9e26",
+   "company": "Nightingale Bio",
+   "role": "Senior Analytics Engineer",
+   "source": "indeed",
+   "applied_at": "2026-10-04",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-04T14:00:00Z",
+     "message_id": "m_ad68bf6f",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "recruiter_screen",
+     "at": "2026-10-06T14:00:00Z",
+     "message_id": "m_b0a768af",
+     "evidence": "email"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-10T14:00:00Z",
+     "message_id": "m_3408057a",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [
+    "c_0b12dc7c"
+   ],
+   "message_ids": [
+    "m_ad68bf6f",
+    "m_b0a768af",
+    "m_ab0eaeef",
+    "m_3408057a"
+   ],
+   "event_ids": [],
+   "description": {
+    "url": "https://careers.nightingalebio.example/jobs/118",
+    "text": "You will design and maintain batch and streaming pipelines, keep them tested, and make them cheap to run.\n\nDay to day you will work with analysts and product managers to turn messy operational data into models people trust.\n\nWe use SQL and Python heavily, with an orchestrator, a cloud warehouse, and dbt style transformations. Prior experience with any similar stack is fine.\n\nYou should be comfortable owning a problem end to end: scoping it, building it, monitoring it, and explaining the result to non-engineers.\n\nThe team is small and remote friendly. We review each other's work, write things down, and prefer simple systems that stay up.",
+    "source": "page",
+    "fetched_at": "2026-10-04T14:05:00Z"
+   },
+   "notes": "",
+   "last_activity_at": "2026-10-10T14:00:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_002891",
+   "company": "Zephyr Travel",
+   "role": "Senior Analytics Engineer",
+   "source": "linkedin",
+   "applied_at": "2026-10-05",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-05T13:15:00Z",
+     "message_id": "m_f4a976ce",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-10T13:15:00Z",
+     "message_id": "m_1c9e7915",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_f4a976ce",
+    "m_96c093d4",
+    "m_1c9e7915"
+   ],
+   "event_ids": [],
+   "description": {
+    "url": "https://careers.zephyrtravel.example/jobs/100",
+    "text": "You will design and maintain batch and streaming pipelines, keep them tested, and make them cheap to run.\n\nWe use SQL and Python heavily, with an orchestrator, a cloud warehouse, and dbt style transformations. Prior experience with any similar stack is fine.\n\nYou should be comfortable owning a problem end to end: scoping it, building it, monitoring it, and explaining the result to non-engineers.",
+    "source": "page",
+    "fetched_at": "2026-10-05T13:20:00Z"
+   },
+   "notes": "",
+   "last_activity_at": "2026-10-10T13:15:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_e1d4fd",
+   "company": "Marlowe Energy",
+   "role": "BI Engineer",
+   "source": "lever",
+   "applied_at": "2026-10-07",
+   "current_stage": "applied",
+   "terminal": false,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-07T15:10:00Z",
+     "message_id": "m_26417f27",
+     "evidence": "confirmation"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_26417f27",
+    "m_651c6ab4",
+    "m_6f7fc759"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-09T15:10:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_cb4e68",
+   "company": "Tidewater Cloud",
+   "role": "Staff Data Engineer",
+   "source": "recruiter",
+   "applied_at": "2026-10-04",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-04T14:45:00Z",
+     "message_id": "m_5ce4b100",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-09T14:45:00Z",
+     "message_id": "m_07e19403",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_5ce4b100",
+    "m_2b2f53cc",
+    "m_07e19403"
+   ],
+   "event_ids": [],
+   "description": {
+    "url": "https://careers.tidewatercloud.example/jobs/115",
+    "text": "Tidewater Cloud is building the data foundation for a growing business, and the Staff Data Engineer will own how data moves from source systems into the warehouse.\n\nYou will design and maintain batch and streaming pipelines, keep them tested, and make them cheap to run.\n\nDay to day you will work with analysts and product managers to turn messy operational data into models people trust.\n\nWe use SQL and Python heavily, with an orchestrator, a cloud warehouse, and dbt style transformations. Prior experience with any similar stack is fine.\n\nYou should be comfortable owning a problem end to end: scoping it, building it, monitoring it, and explaining the result to non-engineers.\n\nThe team is small and remote friendly. We review each other's work, write things down, and prefer simple systems that stay up.",
+    "source": "jsonld",
+    "fetched_at": "2026-10-04T14:50:00Z"
+   },
+   "notes": "",
+   "last_activity_at": "2026-10-09T14:45:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_2df75f",
+   "company": "Yarrow Learning",
+   "role": "Analytics Engineer",
+   "source": "greenhouse",
+   "applied_at": "2026-10-04",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-04T13:35:00Z",
+     "message_id": "m_d3134256",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-09T13:35:00Z",
+     "message_id": "m_7b23206d",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_d3134256",
+    "m_71f0c07f",
+    "m_7b23206d"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-09T13:35:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_007770",
+   "company": "Xenon Parcel",
+   "role": "Data Engineer",
+   "source": "linkedin",
+   "applied_at": "2026-10-03",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-03T15:45:00Z",
+     "message_id": "m_8285774d",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-08T15:45:00Z",
+     "message_id": "m_929a4710",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_8285774d",
+    "m_2f9cacc8",
+    "m_929a4710"
+   ],
+   "event_ids": [],
+   "description": {
+    "url": "https://careers.xenonparcel.example/jobs/103",
+    "text": "We use SQL and Python heavily, with an orchestrator, a cloud warehouse, and dbt style transformations. Prior experience with any similar stack is fine.\n\nYou should be comfortable owning a problem end to end: scoping it, building it, monitoring it, and explaining the result to non-engineers.\n\nThe team is small and remote friendly. We review each other's work, write things down, and prefer simple systems that stay up.",
+    "source": "page",
+    "fetched_at": "2026-10-03T15:50:00Z"
+   },
+   "notes": "",
+   "last_activity_at": "2026-10-08T15:45:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_bc8c0e",
+   "company": "Saltmarsh Foods",
+   "role": "Machine Learning Engineer",
+   "source": "greenhouse",
+   "applied_at": "2026-10-02",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-02T14:05:00Z",
+     "message_id": "m_7cd95252",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-07T14:05:00Z",
+     "message_id": "m_90d4d31e",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_7cd95252",
+    "m_83a988f3",
+    "m_90d4d31e"
+   ],
+   "event_ids": [],
+   "description": {
+    "url": "https://boards.greenhouse.io/saltmarshfoods/jobs/4971683",
+    "text": "Saltmarsh Foods is building the data foundation for a growing business, and the Machine Learning Engineer will own how data moves from source systems into the warehouse.\n\nDay to day you will work with analysts and product managers to turn messy operational data into models people trust.\n\nWe use SQL and Python heavily, with an orchestrator, a cloud warehouse, and dbt style transformations. Prior experience with any similar stack is fine.",
+    "source": "greenhouse",
+    "fetched_at": "2026-10-02T14:10:00Z"
+   },
+   "notes": "",
+   "last_activity_at": "2026-10-07T14:05:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_ec28ed",
+   "company": "Ironbridge Logistics",
+   "role": "Data Engineer",
+   "source": "linkedin",
+   "applied_at": "2026-10-02",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-02T13:35:00Z",
+     "message_id": "m_d047ec36",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-07T13:35:00Z",
+     "message_id": "m_37eb0c05",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_d047ec36",
+    "m_aaf930a7",
+    "m_37eb0c05"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-07T13:35:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_f11372",
+   "company": "Copperleaf Data",
+   "role": "Staff Data Engineer",
+   "source": "ashby",
+   "applied_at": "2026-10-01",
+   "current_stage": "rejected",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-01T13:35:00Z",
+     "message_id": "m_446938c1",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "rejected",
+     "at": "2026-10-06T13:35:00Z",
+     "message_id": "m_066d924e",
+     "evidence": "email"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_446938c1",
+    "m_ddd54f6f",
+    "m_066d924e"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-06T13:35:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_15ca04",
+   "company": "Willowbrook Pay",
+   "role": "Data Engineering Manager",
+   "source": "company_site",
+   "applied_at": "2026-10-02",
+   "current_stage": "ghosted",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-02T14:05:00Z",
+     "message_id": "m_5b7c37f1",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "ghosted",
+     "at": "2026-10-14T14:05:00Z",
+     "message_id": null,
+     "evidence": "timeout"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_5b7c37f1",
+    "m_67b9d489",
+    "m_ee11f482"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-04T14:05:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_ab5165",
+   "company": "Dovetail Freight",
+   "role": "Data Engineer",
+   "source": "linkedin",
+   "applied_at": "2026-10-02",
+   "current_stage": "ghosted",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-02T13:50:00Z",
+     "message_id": "m_b489e23c",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "recruiter_screen",
+     "at": "2026-10-03T13:50:00Z",
+     "message_id": "m_908c48f9",
+     "evidence": "email"
+    },
+    {
+     "stage": "ghosted",
+     "at": "2026-10-13T15:50:00Z",
+     "message_id": null,
+     "evidence": "timeout"
+    }
+   ],
+   "contact_ids": [
+    "c_e852e589"
+   ],
+   "message_ids": [
+    "m_b489e23c",
+    "m_908c48f9",
+    "m_f75003ab"
+   ],
+   "event_ids": [],
+   "description": null,
+   "notes": "",
+   "last_activity_at": "2026-10-03T15:50:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_e8c5b1",
+   "company": "Kestrel Mobility",
+   "role": "BI Engineer",
+   "source": "linkedin",
+   "applied_at": "2026-10-01",
+   "current_stage": "ghosted",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-01T15:10:00Z",
+     "message_id": "m_3fff6124",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "ghosted",
+     "at": "2026-10-13T15:10:00Z",
+     "message_id": null,
+     "evidence": "timeout"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_3fff6124",
+    "m_36c89a3c",
+    "m_6cb8a7e8"
+   ],
+   "event_ids": [],
+   "description": {
+    "url": "https://careers.kestrelmobility.example/jobs/112",
+    "text": "Kestrel Mobility is building the data foundation for a growing business, and the BI Engineer will own how data moves from source systems into the warehouse.\n\nYou will design and maintain batch and streaming pipelines, keep them tested, and make them cheap to run.\n\nDay to day you will work with analysts and product managers to turn messy operational data into models people trust.\n\nWe use SQL and Python heavily, with an orchestrator, a cloud warehouse, and dbt style transformations. Prior experience with any similar stack is fine.\n\nYou should be comfortable owning a problem end to end: scoping it, building it, monitoring it, and explaining the result to non-engineers.\n\nThe team is small and remote friendly. We review each other's work, write things down, and prefer simple systems that stay up.",
+    "source": "jsonld",
+    "fetched_at": "2026-10-01T15:15:00Z"
+   },
+   "notes": "",
+   "last_activity_at": "2026-10-03T15:10:00Z",
+   "origin": "email"
+  },
+  {
+   "id": "app_c740c2",
+   "company": "Northgate Analytics",
+   "role": "Senior Data Engineer",
+   "source": "lever",
+   "applied_at": "2026-10-01",
+   "current_stage": "ghosted",
+   "terminal": true,
+   "stage_history": [
+    {
+     "stage": "applied",
+     "at": "2026-10-01T15:10:00Z",
+     "message_id": "m_9b5c5109",
+     "evidence": "confirmation"
+    },
+    {
+     "stage": "ghosted",
+     "at": "2026-10-13T15:10:00Z",
+     "message_id": null,
+     "evidence": "timeout"
+    }
+   ],
+   "contact_ids": [],
+   "message_ids": [
+    "m_9b5c5109",
+    "m_9b91dab2",
+    "m_b2747207"
+   ],
+   "event_ids": [],
+   "description": {
+    "url": "https://jobs.lever.co/northgateanalytics/04785341-0000-4000-8000-000000000000",
+    "text": "Northgate Analytics is building the data foundation for a growing business, and the Senior Data Engineer will own how data moves from source systems into the warehouse.\n\nYou will design and maintain batch and streaming pipelines, keep them tested, and make them cheap to run.\n\nDay to day you will work with analysts and product managers to turn messy operational data into models people trust.\n\nWe use SQL and Python heavily, with an orchestrator, a cloud warehouse, and dbt style transformations. Prior experience with any similar stack is fine.\n\nYou should be comfortable owning a problem end to end: scoping it, building it, monitoring it, and explaining the result to non-engineers.\n\nThe team is small and remote friendly. We review each other's work, write things down, and prefer simple systems that stay up.",
+    "source": "lever",
+    "fetched_at": "2026-10-01T15:15:00Z"
+   },
+   "notes": "",
+   "last_activity_at": "2026-10-03T15:10:00Z",
+   "origin": "email"
+  }
+ ],
+ "contacts": [
+  {
+   "id": "c_411eb5cb",
+   "name": "Reese Whitlock",
+   "email": "reese.whitlock@umbrasecurity.example",
+   "title": "Technical Recruiter",
+   "company": "Umbra Security",
+   "first_seen": "2026-10-11T12:45:00Z",
+   "last_seen": "2026-10-14T13:45:00Z",
+   "message_count": 3,
+   "application_ids": [
+    "app_0ae239"
+   ]
+  },
+  {
+   "id": "c_428da0f6",
+   "name": "Sasha Dunmore",
+   "email": "sasha.dunmore@brightwaterlabs.example",
+   "title": "Recruiting Coordinator",
+   "company": "Brightwater Labs",
+   "first_seen": "2026-10-06T15:00:00Z",
+   "last_seen": "2026-10-13T15:00:00Z",
+   "message_count": 3,
+   "application_ids": [
+    "app_64558d"
+   ]
+  },
+  {
+   "id": "c_b050543c",
+   "name": "Kendall Hartwell",
+   "email": "kendall.hartwell@alderbank.example",
+   "title": "Sourcing Lead",
+   "company": "Alderbank",
+   "first_seen": "2026-10-05T13:50:00Z",
+   "last_seen": "2026-10-13T13:50:00Z",
+   "message_count": 4,
+   "application_ids": [
+    "app_ba2534"
+   ]
+  },
+  {
+   "id": "c_3a0729cf",
+   "name": "Marlo Lockhart",
+   "email": "marlo.lockhart@quillfeather.example",
+   "title": "Talent Acquisition Partner",
+   "company": "Quillfeather",
+   "first_seen": "2026-10-10T12:45:00Z",
+   "last_seen": "2026-10-13T12:45:00Z",
+   "message_count": 3,
+   "application_ids": [
+    "app_38f3cf"
+   ]
+  },
+  {
+   "id": "c_7c46d339",
+   "name": "Emerson Calloway",
+   "email": "emerson.calloway@lanternworks.example",
+   "title": "Senior Recruiter",
+   "company": "Lanternworks",
+   "first_seen": "2026-10-02T13:10:00Z",
+   "last_seen": "2026-10-12T13:10:00Z",
+   "message_count": 3,
+   "application_ids": [
+    "app_6c6e41"
+   ]
+  },
+  {
+   "id": "c_d3217184",
+   "name": "Noel Jessup",
+   "email": "noel.jessup@verdantgrid.example",
+   "title": "Sourcing Lead",
+   "company": "Verdant Grid",
+   "first_seen": "2026-10-03T12:30:00Z",
+   "last_seen": "2026-10-11T14:30:00Z",
+   "message_count": 4,
+   "application_ids": [
+    "app_9636d8"
+   ]
+  },
+  {
+   "id": "c_2e98e916",
+   "name": "Greer Mercer",
+   "email": "greer.mercer@redwoodledger.example",
+   "title": "Senior Recruiter",
+   "company": "Redwood Ledger",
+   "first_seen": "2026-10-06T15:05:00Z",
+   "last_seen": "2026-10-10T15:05:00Z",
+   "message_count": 3,
+   "application_ids": [
+    "app_2f101c"
+   ]
+  },
+  {
+   "id": "c_58e40337",
+   "name": "Devon Ingram",
+   "email": "devon.ingram@brightwaterlabs.example",
+   "title": "Engineering Manager, Data Platform",
+   "company": "Brightwater Labs",
+   "first_seen": "2026-10-10T15:00:00Z",
+   "last_seen": "2026-10-10T15:00:00Z",
+   "message_count": 1,
+   "application_ids": [
+    "app_64558d"
+   ]
+  },
+  {
+   "id": "c_f9f134a3",
+   "name": "Casey Sterling",
+   "email": "casey.sterling@fieldstonecapital.example",
+   "title": "Senior Technical Recruiter",
+   "company": "Fieldstone Capital",
+   "first_seen": "2026-10-09T14:40:00Z",
+   "last_seen": "2026-10-10T14:40:00Z",
+   "message_count": 3,
+   "application_ids": [
+    "app_66b94c"
+   ]
+  },
+  {
+   "id": "c_bc4f20d1",
+   "name": "Jules Kerrigan",
+   "email": "jules.kerrigan@pinecrestmedia.example",
+   "title": "Head of Analytics",
+   "company": "Pinecrest Media",
+   "first_seen": "2026-10-10T14:15:00Z",
+   "last_seen": "2026-10-10T14:15:00Z",
+   "message_count": 1,
+   "application_ids": [
+    "app_53dd99"
+   ]
+  },
+  {
+   "id": "c_55dac448",
+   "name": "Finley Fairchild",
+   "email": "finley.fairchild@cedarlinesystems.example",
+   "title": "Recruiting Coordinator",
+   "company": "Cedarline Systems",
+   "first_seen": "2026-10-03T14:15:00Z",
+   "last_seen": "2026-10-10T14:15:00Z",
+   "message_count": 3,
+   "application_ids": [
+    "app_0e69aa"
+   ]
+  },
+  {
+   "id": "c_0b12dc7c",
+   "name": "Avery Ellery",
+   "email": "avery.ellery@nightingalebio.example",
+   "title": "Technical Recruiter",
+   "company": "Nightingale Bio",
+   "first_seen": "2026-10-06T14:00:00Z",
+   "last_seen": "2026-10-10T14:00:00Z",
+   "message_count": 3,
+   "application_ids": [
+    "app_ce9e26"
+   ]
+  },
+  {
+   "id": "c_e2f1d271",
+   "name": "Parker Bellamy",
+   "email": "parker.bellamy@lanternworks.example",
+   "title": "Head of Analytics",
+   "company": "Lanternworks",
+   "first_seen": "2026-10-09T13:10:00Z",
+   "last_seen": "2026-10-09T13:10:00Z",
+   "message_count": 1,
+   "application_ids": [
+    "app_6c6e41"
+   ]
+  },
+  {
+   "id": "c_36a61e6b",
+   "name": "Lennox Ashby",
+   "email": "lennox.ashby@cedarlinesystems.example",
+   "title": "Analytics Engineering Lead",
+   "company": "Cedarline Systems",
+   "first_seen": "2026-10-08T14:15:00Z",
+   "last_seen": "2026-10-08T14:15:00Z",
+   "message_count": 1,
+   "application_ids": [
+    "app_0e69aa"
+   ]
+  },
+  {
+   "id": "c_407410c8",
+   "name": "Blake Oakes",
+   "email": "blake.oakes@verdantgrid.example",
+   "title": "Director of Data Engineering",
+   "company": "Verdant Grid",
+   "first_seen": "2026-10-08T12:30:00Z",
+   "last_seen": "2026-10-08T12:30:00Z",
+   "message_count": 1,
+   "application_ids": [
+    "app_9636d8"
+   ]
+  },
+  {
+   "id": "c_56a969ef",
+   "name": "Indigo Galloway",
+   "email": "indigo.galloway@pinecrestmedia.example",
+   "title": "Sourcing Lead",
+   "company": "Pinecrest Media",
+   "first_seen": "2026-10-05T14:15:00Z",
+   "last_seen": "2026-10-07T14:15:00Z",
+   "message_count": 2,
+   "application_ids": [
+    "app_53dd99"
+   ]
+  },
+  {
+   "id": "c_e852e589",
+   "name": "Harper Radcliffe",
+   "email": "harper.radcliffe@dovetailfreight.example",
+   "title": "Technical Recruiter",
+   "company": "Dovetail Freight",
+   "first_seen": "2026-10-03T13:50:00Z",
+   "last_seen": "2026-10-03T15:50:00Z",
+   "message_count": 2,
+   "application_ids": [
+    "app_ab5165"
+   ]
+  }
+ ],
+ "messages": [
+  {
+   "id": "m_96535e02",
+   "thread_id": "t_ecbc84b5",
+   "date": "2026-10-01T13:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Lanternworks Careers",
+    "email": "careers@jobs.lanternworks.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Lanternworks",
+   "snippet": "Hi Demo, Thanks for applying for the Analytics Engineer role at Lanternworks. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Lanternworks Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Analytics Engineer role at Lanternworks. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Lanternworks Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_446938c1",
+   "thread_id": "t_02dd6346",
+   "date": "2026-10-01T13:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Copperleaf Data Careers",
+    "email": "careers@jobs.copperleafdata.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Copperleaf Data",
+   "snippet": "Hi Demo, Thanks for applying for the Staff Data Engineer role at Copperleaf Data. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Copperleaf Data Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Staff Data Engineer role at Copperleaf Data. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Copperleaf Data Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_3fff6124",
+   "thread_id": "t_0e2955aa",
+   "date": "2026-10-01T15:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Kestrel Mobility Careers",
+    "email": "careers@jobs.kestrelmobility.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: BI Engineer",
+   "snippet": "Hi Demo, Your application for BI Engineer at Kestrel Mobility is in. We read every one and will follow up if there is a fit. The Kestrel Mobility Talent Team",
+   "body": "Hi Demo,\n\nYour application for BI Engineer at Kestrel Mobility is in. We read every one and will follow up if there is a fit.\n\nThe Kestrel Mobility Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_9b5c5109",
+   "thread_id": "t_ab11c7a8",
+   "date": "2026-10-01T15:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Northgate Analytics Careers",
+    "email": "careers@jobs.northgateanalytics.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: Senior Data Engineer",
+   "snippet": "Hi Demo, Your application for Senior Data Engineer at Northgate Analytics is in. We read every one and will follow up if there is a fit. The Northgate Analytics Talent Team",
+   "body": "Hi Demo,\n\nYour application for Senior Data Engineer at Northgate Analytics is in. We read every one and will follow up if there is a fit.\n\nThe Northgate Analytics Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_1661ef70",
+   "thread_id": "t_c7c71da7",
+   "date": "2026-10-02T12:30:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Verdant Grid Careers",
+    "email": "careers@jobs.verdantgrid.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Verdant Grid",
+   "snippet": "Hi Demo, Thanks for applying for the Data Engineering Manager role at Verdant Grid. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Verdant Grid Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Data Engineering Manager role at Verdant Grid. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Verdant Grid Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_8b82541e",
+   "thread_id": "t_d106301c",
+   "date": "2026-10-02T13:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Emerson Calloway",
+    "email": "emerson.calloway@lanternworks.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Analytics Engineer at Lanternworks: quick intro call?",
+   "snippet": "Hi Demo, I am Emerson Calloway, Senior Recruiter at Lanternworks. Your application for the Analytics Engineer role caught our eye. Do you have 20 minutes this week for an introductory call? Thanks, Emerson Calloway Senior Recruiter, Lanternworks",
+   "body": "Hi Demo,\n\nI am Emerson Calloway, Senior Recruiter at Lanternworks. Your application for the Analytics Engineer role caught our eye. Do you have 20 minutes this week for an introductory call?\n\nThanks,\nEmerson Calloway\nSenior Recruiter, Lanternworks",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_d047ec36",
+   "thread_id": "t_78cdf115",
+   "date": "2026-10-02T13:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Ironbridge Logistics Careers",
+    "email": "careers@jobs.ironbridgelogistics.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Ironbridge Logistics",
+   "snippet": "Hi Demo, Thanks for applying for the Data Engineer role at Ironbridge Logistics. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Ironbridge Logistics Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Data Engineer role at Ironbridge Logistics. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Ironbridge Logistics Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_b489e23c",
+   "thread_id": "t_5fda5a50",
+   "date": "2026-10-02T13:50:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Dovetail Freight Careers",
+    "email": "careers@jobs.dovetailfreight.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Dovetail Freight",
+   "snippet": "Hi Demo, Thanks for applying for the Data Engineer role at Dovetail Freight. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Dovetail Freight Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Data Engineer role at Dovetail Freight. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Dovetail Freight Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_5b7c37f1",
+   "thread_id": "t_7da14c51",
+   "date": "2026-10-02T14:05:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Willowbrook Pay Careers",
+    "email": "careers@jobs.willowbrookpay.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Willowbrook Pay",
+   "snippet": "Hi Demo, Thanks for applying for the Data Engineering Manager role at Willowbrook Pay. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Willowbrook Pay Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Data Engineering Manager role at Willowbrook Pay. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Willowbrook Pay Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_7cd95252",
+   "thread_id": "t_ce760239",
+   "date": "2026-10-02T14:05:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Saltmarsh Foods Careers",
+    "email": "careers@jobs.saltmarshfoods.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Saltmarsh Foods",
+   "snippet": "Hi Demo, Thanks for applying for the Machine Learning Engineer role at Saltmarsh Foods. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Saltmarsh Foods Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Machine Learning Engineer role at Saltmarsh Foods. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Saltmarsh Foods Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_caddecf8",
+   "thread_id": "t_282f7087",
+   "date": "2026-10-02T14:15:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Cedarline Systems Careers",
+    "email": "careers@jobs.cedarlinesystems.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Cedarline Systems",
+   "snippet": "Hi Demo, Thanks for applying for the Data Engineering Manager role at Cedarline Systems. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Cedarline Systems Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Data Engineering Manager role at Cedarline Systems. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Cedarline Systems Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_36c89a3c",
+   "thread_id": "t_0e2955aa",
+   "date": "2026-10-02T15:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Kestrel Mobility Careers",
+    "email": "careers@jobs.kestrelmobility.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Kestrel Mobility is under review",
+   "snippet": "Hi Demo, A quick note to say your application for BI Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for BI Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_9b91dab2",
+   "thread_id": "t_ab11c7a8",
+   "date": "2026-10-02T15:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Northgate Analytics Careers",
+    "email": "careers@jobs.northgateanalytics.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Northgate Analytics is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Senior Data Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Senior Data Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_a2f61ac9",
+   "thread_id": "t_2a6afc33",
+   "date": "2026-10-03T12:30:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Noel Jessup",
+    "email": "noel.jessup@verdantgrid.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Data Engineering Manager at Verdant Grid: quick intro call?",
+   "snippet": "Hi Demo, I am Noel Jessup, Sourcing Lead at Verdant Grid. Your application for the Data Engineering Manager role caught our eye. Do you have 20 minutes this week for an introductory call? Thanks, Noel Jessup Sourcing Lead, Verdant Grid",
+   "body": "Hi Demo,\n\nI am Noel Jessup, Sourcing Lead at Verdant Grid. Your application for the Data Engineering Manager role caught our eye. Do you have 20 minutes this week for an introductory call?\n\nThanks,\nNoel Jessup\nSourcing Lead, Verdant Grid",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_ddd54f6f",
+   "thread_id": "t_02dd6346",
+   "date": "2026-10-03T13:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Copperleaf Data Careers",
+    "email": "careers@jobs.copperleafdata.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Copperleaf Data is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Staff Data Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Staff Data Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_908c48f9",
+   "thread_id": "t_5d7fa41a",
+   "date": "2026-10-03T13:50:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Harper Radcliffe",
+    "email": "harper.radcliffe@dovetailfreight.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Data Engineer at Dovetail Freight: quick intro call?",
+   "snippet": "Hi Demo, I am Harper Radcliffe, Technical Recruiter at Dovetail Freight. Your application for the Data Engineer role caught our eye. Do you have 20 minutes this week for an introductory call? Thanks, Harper Radcliffe Technical Recruiter, Dovetail Freight",
+   "body": "Hi Demo,\n\nI am Harper Radcliffe, Technical Recruiter at Dovetail Freight. Your application for the Data Engineer role caught our eye. Do you have 20 minutes this week for an introductory call?\n\nThanks,\nHarper Radcliffe\nTechnical Recruiter, Dovetail Freight",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_67b9d489",
+   "thread_id": "t_7da14c51",
+   "date": "2026-10-03T14:05:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Willowbrook Pay Careers",
+    "email": "careers@jobs.willowbrookpay.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Willowbrook Pay is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Data Engineering Manager is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Data Engineering Manager is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_f98f0196",
+   "thread_id": "t_9f3e6628",
+   "date": "2026-10-03T14:15:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Finley Fairchild",
+    "email": "finley.fairchild@cedarlinesystems.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Data Engineering Manager at Cedarline Systems: quick intro call?",
+   "snippet": "Hi Demo, I am Finley Fairchild, Recruiting Coordinator at Cedarline Systems. Your application for the Data Engineering Manager role caught our eye. Do you have 20 minutes this week for an introductory call? Thanks, Finley Fairchild Recruiting Coordinator, Cedarline Systems",
+   "body": "Hi Demo,\n\nI am Finley Fairchild, Recruiting Coordinator at Cedarline Systems. Your application for the Data Engineering Manager role caught our eye. Do you have 20 minutes this week for an introductory call?\n\nThanks,\nFinley Fairchild\nRecruiting Coordinator, Cedarline Systems",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_6cb8a7e8",
+   "thread_id": "t_0e2955aa",
+   "date": "2026-10-03T15:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Kestrel Mobility Careers",
+    "email": "careers@jobs.kestrelmobility.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Kestrel Mobility: a few optional questions",
+   "snippet": "Hi Demo, To help us review your application for BI Engineer, please complete a short optional questionnaire. It takes about five minutes.",
+   "body": "Hi Demo,\n\nTo help us review your application for BI Engineer, please complete a short optional questionnaire. It takes about five minutes.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_b2747207",
+   "thread_id": "t_ab11c7a8",
+   "date": "2026-10-03T15:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Northgate Analytics Careers",
+    "email": "careers@jobs.northgateanalytics.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Northgate Analytics: a few optional questions",
+   "snippet": "Hi Demo, To help us review your application for Senior Data Engineer, please complete a short optional questionnaire. It takes about five minutes.",
+   "body": "Hi Demo,\n\nTo help us review your application for Senior Data Engineer, please complete a short optional questionnaire. It takes about five minutes.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_8285774d",
+   "thread_id": "t_c9523619",
+   "date": "2026-10-03T15:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Xenon Parcel Careers",
+    "email": "careers@jobs.xenonparcel.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: Data Engineer",
+   "snippet": "Hi Demo, Your application for Data Engineer at Xenon Parcel is in. We read every one and will follow up if there is a fit. The Xenon Parcel Talent Team",
+   "body": "Hi Demo,\n\nYour application for Data Engineer at Xenon Parcel is in. We read every one and will follow up if there is a fit.\n\nThe Xenon Parcel Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_f75003ab",
+   "thread_id": "t_5d7fa41a",
+   "date": "2026-10-03T15:50:00Z",
+   "direction": "out",
+   "from": {
+    "name": "Demo User",
+    "email": "demo.user@example.com"
+   },
+   "to": [
+    {
+     "name": "Harper Radcliffe",
+     "email": "harper.radcliffe@dovetailfreight.example"
+    }
+   ],
+   "subject": "Re: Data Engineer at Dovetail Freight: quick intro call?",
+   "snippet": "Hi Harper, Thanks for reaching out. Thursday afternoon works well for me and I am happy to share more about my background then. Best, Demo User",
+   "body": "Hi Harper,\n\nThanks for reaching out. Thursday afternoon works well for me and I am happy to share more about my background then.\n\nBest,\nDemo User",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_aaf930a7",
+   "thread_id": "t_78cdf115",
+   "date": "2026-10-04T13:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Ironbridge Logistics Careers",
+    "email": "careers@jobs.ironbridgelogistics.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Ironbridge Logistics is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Data Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Data Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_d3134256",
+   "thread_id": "t_091a1a64",
+   "date": "2026-10-04T13:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Yarrow Learning Careers",
+    "email": "careers@jobs.yarrowlearning.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: Analytics Engineer",
+   "snippet": "Hi Demo, Your application for Analytics Engineer at Yarrow Learning is in. We read every one and will follow up if there is a fit. The Yarrow Learning Talent Team",
+   "body": "Hi Demo,\n\nYour application for Analytics Engineer at Yarrow Learning is in. We read every one and will follow up if there is a fit.\n\nThe Yarrow Learning Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_4fbddda4",
+   "thread_id": "t_85c8f2b3",
+   "date": "2026-10-04T13:50:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Alderbank Careers",
+    "email": "careers@jobs.alderbank.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: Principal Data Engineer",
+   "snippet": "Hi Demo, Your application for Principal Data Engineer at Alderbank is in. We read every one and will follow up if there is a fit. The Alderbank Talent Team",
+   "body": "Hi Demo,\n\nYour application for Principal Data Engineer at Alderbank is in. We read every one and will follow up if there is a fit.\n\nThe Alderbank Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_ad68bf6f",
+   "thread_id": "t_ddca15cc",
+   "date": "2026-10-04T14:00:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Nightingale Bio Careers",
+    "email": "careers@jobs.nightingalebio.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: Senior Analytics Engineer",
+   "snippet": "Hi Demo, Your application for Senior Analytics Engineer at Nightingale Bio is in. We read every one and will follow up if there is a fit. The Nightingale Bio Talent Team",
+   "body": "Hi Demo,\n\nYour application for Senior Analytics Engineer at Nightingale Bio is in. We read every one and will follow up if there is a fit.\n\nThe Nightingale Bio Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_83a988f3",
+   "thread_id": "t_ce760239",
+   "date": "2026-10-04T14:05:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Saltmarsh Foods Careers",
+    "email": "careers@jobs.saltmarshfoods.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Saltmarsh Foods is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Machine Learning Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Machine Learning Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_ee11f482",
+   "thread_id": "t_7da14c51",
+   "date": "2026-10-04T14:05:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Willowbrook Pay Careers",
+    "email": "careers@jobs.willowbrookpay.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Willowbrook Pay: a few optional questions",
+   "snippet": "Hi Demo, To help us review your application for Data Engineering Manager, please complete a short optional questionnaire. It takes about five minutes.",
+   "body": "Hi Demo,\n\nTo help us review your application for Data Engineering Manager, please complete a short optional questionnaire. It takes about five minutes.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_fd80f4e0",
+   "thread_id": "t_0210a1ea",
+   "date": "2026-10-04T14:15:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Pinecrest Media Careers",
+    "email": "careers@jobs.pinecrestmedia.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Pinecrest Media",
+   "snippet": "Hi Demo, Thanks for applying for the Data Platform Engineer role at Pinecrest Media. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Pinecrest Media Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Data Platform Engineer role at Pinecrest Media. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Pinecrest Media Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_5ce4b100",
+   "thread_id": "t_464e33c6",
+   "date": "2026-10-04T14:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Tidewater Cloud Careers",
+    "email": "careers@jobs.tidewatercloud.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Tidewater Cloud",
+   "snippet": "Hi Demo, Thanks for applying for the Staff Data Engineer role at Tidewater Cloud. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Tidewater Cloud Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Staff Data Engineer role at Tidewater Cloud. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Tidewater Cloud Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_195defb4",
+   "thread_id": "t_d6109176",
+   "date": "2026-10-04T15:00:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Brightwater Labs Careers",
+    "email": "careers@jobs.brightwaterlabs.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: Lead Analytics Engineer",
+   "snippet": "Hi Demo, Your application for Lead Analytics Engineer at Brightwater Labs is in. We read every one and will follow up if there is a fit. The Brightwater Labs Talent Team",
+   "body": "Hi Demo,\n\nYour application for Lead Analytics Engineer at Brightwater Labs is in. We read every one and will follow up if there is a fit.\n\nThe Brightwater Labs Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_8ec1a128",
+   "thread_id": "t_f17cbf6c",
+   "date": "2026-10-04T15:05:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Redwood Ledger Careers",
+    "email": "careers@jobs.redwoodledger.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: Machine Learning Engineer",
+   "snippet": "Hi Demo, Your application for Machine Learning Engineer at Redwood Ledger is in. We read every one and will follow up if there is a fit. The Redwood Ledger Talent Team",
+   "body": "Hi Demo,\n\nYour application for Machine Learning Engineer at Redwood Ledger is in. We read every one and will follow up if there is a fit.\n\nThe Redwood Ledger Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_45169955",
+   "thread_id": "t_2a6afc33",
+   "date": "2026-10-05T12:30:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Noel Jessup",
+    "email": "noel.jessup@verdantgrid.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Verdant Grid: technical assessment for Data Engineering Manager",
+   "snippet": "Hi Demo, The next step is a take-home: a short SQL and data modeling exercise, about three hours. Please send it back within a few days. Best, Noel Jessup Sourcing Lead, Verdant Grid",
+   "body": "Hi Demo,\n\nThe next step is a take-home: a short SQL and data modeling exercise, about three hours. Please send it back within a few days.\n\nBest,\nNoel Jessup\nSourcing Lead, Verdant Grid",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "technical",
+   "labels": []
+  },
+  {
+   "id": "m_218e1615",
+   "thread_id": "t_d106301c",
+   "date": "2026-10-05T13:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Emerson Calloway",
+    "email": "emerson.calloway@lanternworks.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Lanternworks: technical assessment for Analytics Engineer",
+   "snippet": "Hi Demo, The next step is a take-home: a short SQL and data modeling exercise, about three hours. Please send it back within a few days. Best, Emerson Calloway Senior Recruiter, Lanternworks",
+   "body": "Hi Demo,\n\nThe next step is a take-home: a short SQL and data modeling exercise, about three hours. Please send it back within a few days.\n\nBest,\nEmerson Calloway\nSenior Recruiter, Lanternworks",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "technical",
+   "labels": []
+  },
+  {
+   "id": "m_f4a976ce",
+   "thread_id": "t_9cf45ed0",
+   "date": "2026-10-05T13:15:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Zephyr Travel Careers",
+    "email": "careers@jobs.zephyrtravel.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: Senior Analytics Engineer",
+   "snippet": "Hi Demo, Your application for Senior Analytics Engineer at Zephyr Travel is in. We read every one and will follow up if there is a fit. The Zephyr Travel Talent Team",
+   "body": "Hi Demo,\n\nYour application for Senior Analytics Engineer at Zephyr Travel is in. We read every one and will follow up if there is a fit.\n\nThe Zephyr Travel Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_19baed68",
+   "thread_id": "t_11295d3f",
+   "date": "2026-10-05T13:50:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Kendall Hartwell",
+    "email": "kendall.hartwell@alderbank.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Principal Data Engineer at Alderbank: quick intro call?",
+   "snippet": "Hi Demo, I am Kendall Hartwell, Sourcing Lead at Alderbank. Your application for the Principal Data Engineer role caught our eye. Do you have 20 minutes this week for an introductory call? Thanks, Kendall Hartwell Sourcing Lead, Alderbank",
+   "body": "Hi Demo,\n\nI am Kendall Hartwell, Sourcing Lead at Alderbank. Your application for the Principal Data Engineer role caught our eye. Do you have 20 minutes this week for an introductory call?\n\nThanks,\nKendall Hartwell\nSourcing Lead, Alderbank",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_490f1ffb",
+   "thread_id": "t_9f3e6628",
+   "date": "2026-10-05T14:15:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Finley Fairchild",
+    "email": "finley.fairchild@cedarlinesystems.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Cedarline Systems: technical assessment for Data Engineering Manager",
+   "snippet": "Hi Demo, The next step is a take-home: a short SQL and data modeling exercise, about three hours. Please send it back within a few days. Best, Finley Fairchild Recruiting Coordinator, Cedarline Systems",
+   "body": "Hi Demo,\n\nThe next step is a take-home: a short SQL and data modeling exercise, about three hours. Please send it back within a few days.\n\nBest,\nFinley Fairchild\nRecruiting Coordinator, Cedarline Systems",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "technical",
+   "labels": []
+  },
+  {
+   "id": "m_afc4bd0c",
+   "thread_id": "t_9caac8ec",
+   "date": "2026-10-05T14:15:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Indigo Galloway",
+    "email": "indigo.galloway@pinecrestmedia.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Data Platform Engineer at Pinecrest Media: quick intro call?",
+   "snippet": "Hi Demo, I am Indigo Galloway, Sourcing Lead at Pinecrest Media. Your application for the Data Platform Engineer role caught our eye. Do you have 20 minutes this week for an introductory call? Thanks, Indigo Galloway Sourcing Lead, Pinecrest Media",
+   "body": "Hi Demo,\n\nI am Indigo Galloway, Sourcing Lead at Pinecrest Media. Your application for the Data Platform Engineer role caught our eye. Do you have 20 minutes this week for an introductory call?\n\nThanks,\nIndigo Galloway\nSourcing Lead, Pinecrest Media",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_2f9cacc8",
+   "thread_id": "t_c9523619",
+   "date": "2026-10-05T15:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Xenon Parcel Careers",
+    "email": "careers@jobs.xenonparcel.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Xenon Parcel is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Data Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Data Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_066d924e",
+   "thread_id": "t_02dd6346",
+   "date": "2026-10-06T13:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Copperleaf Data Careers",
+    "email": "careers@jobs.copperleafdata.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Update on your application to Copperleaf Data",
+   "snippet": "Hi Demo, Thank you for your interest in the Staff Data Engineer role at Copperleaf Data. After careful review we have decided to move forward with other candidates. We will keep your details on file. The Copperleaf Data Talent Team",
+   "body": "Hi Demo,\n\nThank you for your interest in the Staff Data Engineer role at Copperleaf Data. After careful review we have decided to move forward with other candidates. We will keep your details on file.\n\nThe Copperleaf Data Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_71f0c07f",
+   "thread_id": "t_091a1a64",
+   "date": "2026-10-06T13:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Yarrow Learning Careers",
+    "email": "careers@jobs.yarrowlearning.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Yarrow Learning is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Analytics Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Analytics Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_b0a768af",
+   "thread_id": "t_ba1874e6",
+   "date": "2026-10-06T14:00:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Avery Ellery",
+    "email": "avery.ellery@nightingalebio.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Senior Analytics Engineer at Nightingale Bio: quick intro call?",
+   "snippet": "Hi Demo, I am Avery Ellery, Technical Recruiter at Nightingale Bio. Your application for the Senior Analytics Engineer role caught our eye. Do you have 20 minutes this week for an introductory call? Thanks, Avery Ellery Technical Recruiter, Nightingale Bio",
+   "body": "Hi Demo,\n\nI am Avery Ellery, Technical Recruiter at Nightingale Bio. Your application for the Senior Analytics Engineer role caught our eye. Do you have 20 minutes this week for an introductory call?\n\nThanks,\nAvery Ellery\nTechnical Recruiter, Nightingale Bio",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_524f99a1",
+   "thread_id": "t_52af24d8",
+   "date": "2026-10-06T14:05:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Harbor & Pine Careers",
+    "email": "careers@jobs.harborpine.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: Senior Analytics Engineer",
+   "snippet": "Hi Demo, Your application for Senior Analytics Engineer at Harbor & Pine is in. We read every one and will follow up if there is a fit. The Harbor & Pine Talent Team",
+   "body": "Hi Demo,\n\nYour application for Senior Analytics Engineer at Harbor & Pine is in. We read every one and will follow up if there is a fit.\n\nThe Harbor & Pine Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_2b2f53cc",
+   "thread_id": "t_464e33c6",
+   "date": "2026-10-06T14:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Tidewater Cloud Careers",
+    "email": "careers@jobs.tidewatercloud.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Tidewater Cloud is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Staff Data Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Staff Data Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_80d823c7",
+   "thread_id": "t_9bfe112b",
+   "date": "2026-10-06T15:00:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Sasha Dunmore",
+    "email": "sasha.dunmore@brightwaterlabs.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Lead Analytics Engineer at Brightwater Labs: quick intro call?",
+   "snippet": "Hi Demo, I am Sasha Dunmore, Recruiting Coordinator at Brightwater Labs. Your application for the Lead Analytics Engineer role caught our eye. Do you have 20 minutes this week for an introductory call? Thanks, Sasha Dunmore Recruiting Coordinator, Brightwater Labs",
+   "body": "Hi Demo,\n\nI am Sasha Dunmore, Recruiting Coordinator at Brightwater Labs. Your application for the Lead Analytics Engineer role caught our eye. Do you have 20 minutes this week for an introductory call?\n\nThanks,\nSasha Dunmore\nRecruiting Coordinator, Brightwater Labs",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_89831c8c",
+   "thread_id": "t_8dc28825",
+   "date": "2026-10-06T15:05:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Greer Mercer",
+    "email": "greer.mercer@redwoodledger.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Machine Learning Engineer at Redwood Ledger: quick intro call?",
+   "snippet": "Hi Demo, I am Greer Mercer, Senior Recruiter at Redwood Ledger. Your application for the Machine Learning Engineer role caught our eye. Do you have 20 minutes this week for an introductory call? Thanks, Greer Mercer Senior Recruiter, Redwood Ledger",
+   "body": "Hi Demo,\n\nI am Greer Mercer, Senior Recruiter at Redwood Ledger. Your application for the Machine Learning Engineer role caught our eye. Do you have 20 minutes this week for an introductory call?\n\nThanks,\nGreer Mercer\nSenior Recruiter, Redwood Ledger",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_ab0eaeef",
+   "thread_id": "t_ba1874e6",
+   "date": "2026-10-06T16:00:00Z",
+   "direction": "out",
+   "from": {
+    "name": "Demo User",
+    "email": "demo.user@example.com"
+   },
+   "to": [
+    {
+     "name": "Avery Ellery",
+     "email": "avery.ellery@nightingalebio.example"
+    }
+   ],
+   "subject": "Re: Senior Analytics Engineer at Nightingale Bio: quick intro call?",
+   "snippet": "Hi Avery, Thanks for reaching out. Thursday afternoon works well for me and I am happy to share more about my background then. Best, Demo User",
+   "body": "Hi Avery,\n\nThanks for reaching out. Thursday afternoon works well for me and I am happy to share more about my background then.\n\nBest,\nDemo User",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_27b91859",
+   "thread_id": "t_8dc28825",
+   "date": "2026-10-06T17:05:00Z",
+   "direction": "out",
+   "from": {
+    "name": "Demo User",
+    "email": "demo.user@example.com"
+   },
+   "to": [
+    {
+     "name": "Greer Mercer",
+     "email": "greer.mercer@redwoodledger.example"
+    }
+   ],
+   "subject": "Re: Machine Learning Engineer at Redwood Ledger: quick intro call?",
+   "snippet": "Hi Greer, Thanks for reaching out. Thursday afternoon works well for me and I am happy to share more about my background then. Best, Demo User",
+   "body": "Hi Greer,\n\nThanks for reaching out. Thursday afternoon works well for me and I am happy to share more about my background then.\n\nBest,\nDemo User",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_8f41db90",
+   "thread_id": "t_9cc9297f",
+   "date": "2026-10-07T12:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Emberlight Health Careers",
+    "email": "careers@jobs.emberlighthealth.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: Analytics Engineer",
+   "snippet": "Hi Demo, Your application for Analytics Engineer at Emberlight Health is in. We read every one and will follow up if there is a fit. The Emberlight Health Talent Team",
+   "body": "Hi Demo,\n\nYour application for Analytics Engineer at Emberlight Health is in. We read every one and will follow up if there is a fit.\n\nThe Emberlight Health Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_96c093d4",
+   "thread_id": "t_9cf45ed0",
+   "date": "2026-10-07T13:15:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Zephyr Travel Careers",
+    "email": "careers@jobs.zephyrtravel.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Zephyr Travel is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Senior Analytics Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Senior Analytics Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_37eb0c05",
+   "thread_id": "t_78cdf115",
+   "date": "2026-10-07T13:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Ironbridge Logistics Careers",
+    "email": "careers@jobs.ironbridgelogistics.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Update on your application to Ironbridge Logistics",
+   "snippet": "Hi Demo, Thank you for your interest in the Data Engineer role at Ironbridge Logistics. After careful review we have decided to move forward with other candidates. We will keep your details on file. The Ironbridge Logistics Talent Team",
+   "body": "Hi Demo,\n\nThank you for your interest in the Data Engineer role at Ironbridge Logistics. After careful review we have decided to move forward with other candidates. We will keep your details on file.\n\nThe Ironbridge Logistics Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_90d4d31e",
+   "thread_id": "t_ce760239",
+   "date": "2026-10-07T14:05:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Saltmarsh Foods Careers",
+    "email": "careers@jobs.saltmarshfoods.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Update on your application to Saltmarsh Foods",
+   "snippet": "Hi Demo, Thank you for your interest in the Machine Learning Engineer role at Saltmarsh Foods. After careful review we have decided to move forward with other candidates. We will keep your details on file. The Saltmarsh Foods Talent Team",
+   "body": "Hi Demo,\n\nThank you for your interest in the Machine Learning Engineer role at Saltmarsh Foods. After careful review we have decided to move forward with other candidates. We will keep your details on file.\n\nThe Saltmarsh Foods Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_68654faa",
+   "thread_id": "t_9caac8ec",
+   "date": "2026-10-07T14:15:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Indigo Galloway",
+    "email": "indigo.galloway@pinecrestmedia.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Pinecrest Media: technical assessment for Data Platform Engineer",
+   "snippet": "Hi Demo, The next step is a take-home: a short SQL and data modeling exercise, about three hours. Please send it back within a few days. Best, Indigo Galloway Sourcing Lead, Pinecrest Media",
+   "body": "Hi Demo,\n\nThe next step is a take-home: a short SQL and data modeling exercise, about three hours. Please send it back within a few days.\n\nBest,\nIndigo Galloway\nSourcing Lead, Pinecrest Media",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "technical",
+   "labels": []
+  },
+  {
+   "id": "m_1d043453",
+   "thread_id": "t_8d05e6c9",
+   "date": "2026-10-07T14:40:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Fieldstone Capital Careers",
+    "email": "careers@jobs.fieldstonecapital.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Fieldstone Capital",
+   "snippet": "Hi Demo, Thanks for applying for the Senior Data Engineer role at Fieldstone Capital. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Fieldstone Capital Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Senior Data Engineer role at Fieldstone Capital. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Fieldstone Capital Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_51976960",
+   "thread_id": "t_9bfe112b",
+   "date": "2026-10-07T15:00:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Sasha Dunmore",
+    "email": "sasha.dunmore@brightwaterlabs.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Invitation: Recruiter screen with Brightwater Labs",
+   "snippet": "Sasha Dunmore has invited you to a recruiter screen for the Lead Analytics Engineer role. Join with the link in the calendar invite.",
+   "body": "Sasha Dunmore has invited you to a recruiter screen for the Lead Analytics Engineer role. Join with the link in the calendar invite.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_26417f27",
+   "thread_id": "t_13a66336",
+   "date": "2026-10-07T15:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Marlowe Energy Careers",
+    "email": "careers@jobs.marloweenergy.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: BI Engineer",
+   "snippet": "Hi Demo, Your application for BI Engineer at Marlowe Energy is in. We read every one and will follow up if there is a fit. The Marlowe Energy Talent Team",
+   "body": "Hi Demo,\n\nYour application for BI Engineer at Marlowe Energy is in. We read every one and will follow up if there is a fit.\n\nThe Marlowe Energy Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_725ce8eb",
+   "thread_id": "t_2a6afc33",
+   "date": "2026-10-08T12:30:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Blake Oakes",
+    "email": "blake.oakes@verdantgrid.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Final round: virtual onsite at Verdant Grid",
+   "snippet": "Hi Demo, We would like to invite you to a virtual onsite: an interview loop of four sessions with the team, including a short panel interview. Best, Blake Oakes Director of Data Engineering, Verdant Grid",
+   "body": "Hi Demo,\n\nWe would like to invite you to a virtual onsite: an interview loop of four sessions with the team, including a short panel interview.\n\nBest,\nBlake Oakes\nDirector of Data Engineering, Verdant Grid",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "onsite",
+   "labels": []
+  },
+  {
+   "id": "m_879e61db",
+   "thread_id": "t_11295d3f",
+   "date": "2026-10-08T13:50:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Kendall Hartwell",
+    "email": "kendall.hartwell@alderbank.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Alderbank: technical assessment for Principal Data Engineer",
+   "snippet": "Hi Demo, The next step is a take-home: a short SQL and data modeling exercise, about three hours. Please send it back within a few days. Best, Kendall Hartwell Sourcing Lead, Alderbank",
+   "body": "Hi Demo,\n\nThe next step is a take-home: a short SQL and data modeling exercise, about three hours. Please send it back within a few days.\n\nBest,\nKendall Hartwell\nSourcing Lead, Alderbank",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "technical",
+   "labels": []
+  },
+  {
+   "id": "m_12a4a09a",
+   "thread_id": "t_52af24d8",
+   "date": "2026-10-08T14:05:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Harbor & Pine Careers",
+    "email": "careers@jobs.harborpine.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Harbor & Pine is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Senior Analytics Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Senior Analytics Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_4dc0651a",
+   "thread_id": "t_9f3e6628",
+   "date": "2026-10-08T14:15:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Lennox Ashby",
+    "email": "lennox.ashby@cedarlinesystems.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Final round: virtual onsite at Cedarline Systems",
+   "snippet": "Hi Demo, We would like to invite you to a virtual onsite: an interview loop of four sessions with the team, including a short panel interview. Best, Lennox Ashby Analytics Engineering Lead, Cedarline Systems",
+   "body": "Hi Demo,\n\nWe would like to invite you to a virtual onsite: an interview loop of four sessions with the team, including a short panel interview.\n\nBest,\nLennox Ashby\nAnalytics Engineering Lead, Cedarline Systems",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "onsite",
+   "labels": []
+  },
+  {
+   "id": "m_1219e3d5",
+   "thread_id": "t_4e6283e4",
+   "date": "2026-10-08T15:00:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Glasshouse Retail Careers",
+    "email": "careers@jobs.glasshouseretail.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Glasshouse Retail",
+   "snippet": "Hi Demo, Thanks for applying for the Senior Data Engineer role at Glasshouse Retail. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Glasshouse Retail Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Senior Data Engineer role at Glasshouse Retail. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Glasshouse Retail Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_651c6ab4",
+   "thread_id": "t_13a66336",
+   "date": "2026-10-08T15:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Marlowe Energy Careers",
+    "email": "careers@jobs.marloweenergy.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Marlowe Energy is under review",
+   "snippet": "Hi Demo, A quick note to say your application for BI Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for BI Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_929a4710",
+   "thread_id": "t_c9523619",
+   "date": "2026-10-08T15:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Xenon Parcel Careers",
+    "email": "careers@jobs.xenonparcel.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Update on your application to Xenon Parcel",
+   "snippet": "Hi Demo, Thank you for your interest in the Data Engineer role at Xenon Parcel. After careful review we have decided to move forward with other candidates. We will keep your details on file. The Xenon Parcel Talent Team",
+   "body": "Hi Demo,\n\nThank you for your interest in the Data Engineer role at Xenon Parcel. After careful review we have decided to move forward with other candidates. We will keep your details on file.\n\nThe Xenon Parcel Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_aa6e0742",
+   "thread_id": "t_9cc9297f",
+   "date": "2026-10-09T12:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Emberlight Health Careers",
+    "email": "careers@jobs.emberlighthealth.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Emberlight Health is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Analytics Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Analytics Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_677d7ef7",
+   "thread_id": "t_09a85e5d",
+   "date": "2026-10-09T12:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Quillfeather Careers",
+    "email": "careers@jobs.quillfeather.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Thank you for applying to Quillfeather",
+   "snippet": "Hi Demo, Thanks for applying for the Analytics Engineer role at Quillfeather. We have received your application and our team will review it shortly. If your background looks like a match, someone will be in touch. The Quillfeather Talent Team",
+   "body": "Hi Demo,\n\nThanks for applying for the Analytics Engineer role at Quillfeather. We have received your application and our team will review it shortly.\n\nIf your background looks like a match, someone will be in touch.\n\nThe Quillfeather Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_f95aa307",
+   "thread_id": "t_d106301c",
+   "date": "2026-10-09T13:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Parker Bellamy",
+    "email": "parker.bellamy@lanternworks.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Final round: virtual onsite at Lanternworks",
+   "snippet": "Hi Demo, We would like to invite you to a virtual onsite: an interview loop of four sessions with the team, including a short panel interview. Best, Parker Bellamy Head of Analytics, Lanternworks",
+   "body": "Hi Demo,\n\nWe would like to invite you to a virtual onsite: an interview loop of four sessions with the team, including a short panel interview.\n\nBest,\nParker Bellamy\nHead of Analytics, Lanternworks",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "onsite",
+   "labels": []
+  },
+  {
+   "id": "m_7b23206d",
+   "thread_id": "t_091a1a64",
+   "date": "2026-10-09T13:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Yarrow Learning Careers",
+    "email": "careers@jobs.yarrowlearning.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Update on your application to Yarrow Learning",
+   "snippet": "Hi Demo, Thank you for your interest in the Analytics Engineer role at Yarrow Learning. After careful review we have decided to move forward with other candidates. We will keep your details on file. The Yarrow Learning Talent Team",
+   "body": "Hi Demo,\n\nThank you for your interest in the Analytics Engineer role at Yarrow Learning. After careful review we have decided to move forward with other candidates. We will keep your details on file.\n\nThe Yarrow Learning Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_7622db72",
+   "thread_id": "t_b3f9b9ac",
+   "date": "2026-10-09T14:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Oakmont Insurance Careers",
+    "email": "careers@jobs.oakmontinsurance.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: BI Engineer",
+   "snippet": "Hi Demo, Your application for BI Engineer at Oakmont Insurance is in. We read every one and will follow up if there is a fit. The Oakmont Insurance Talent Team",
+   "body": "Hi Demo,\n\nYour application for BI Engineer at Oakmont Insurance is in. We read every one and will follow up if there is a fit.\n\nThe Oakmont Insurance Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_a0d02b39",
+   "thread_id": "t_15fef3ca",
+   "date": "2026-10-09T14:40:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Casey Sterling",
+    "email": "casey.sterling@fieldstonecapital.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Senior Data Engineer at Fieldstone Capital: quick intro call?",
+   "snippet": "Hi Demo, I am Casey Sterling, Senior Technical Recruiter at Fieldstone Capital. Your application for the Senior Data Engineer role caught our eye. Do you have 20 minutes this week for an introductory call? Thanks, Casey Sterling Senior Technical Recruiter, Fieldstone Capital",
+   "body": "Hi Demo,\n\nI am Casey Sterling, Senior Technical Recruiter at Fieldstone Capital. Your application for the Senior Data Engineer role caught our eye. Do you have 20 minutes this week for an introductory call?\n\nThanks,\nCasey Sterling\nSenior Technical Recruiter, Fieldstone Capital",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_07e19403",
+   "thread_id": "t_464e33c6",
+   "date": "2026-10-09T14:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Tidewater Cloud Careers",
+    "email": "careers@jobs.tidewatercloud.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Update on your application to Tidewater Cloud",
+   "snippet": "Hi Demo, Thank you for your interest in the Staff Data Engineer role at Tidewater Cloud. After careful review we have decided to move forward with other candidates. We will keep your details on file. The Tidewater Cloud Talent Team",
+   "body": "Hi Demo,\n\nThank you for your interest in the Staff Data Engineer role at Tidewater Cloud. After careful review we have decided to move forward with other candidates. We will keep your details on file.\n\nThe Tidewater Cloud Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_6f7fc759",
+   "thread_id": "t_13a66336",
+   "date": "2026-10-09T15:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Marlowe Energy Careers",
+    "email": "careers@jobs.marloweenergy.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Marlowe Energy: a few optional questions",
+   "snippet": "Hi Demo, To help us review your application for BI Engineer, please complete a short optional questionnaire. It takes about five minutes.",
+   "body": "Hi Demo,\n\nTo help us review your application for BI Engineer, please complete a short optional questionnaire. It takes about five minutes.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_fcb0dfbf",
+   "thread_id": "t_15fef3ca",
+   "date": "2026-10-09T16:40:00Z",
+   "direction": "out",
+   "from": {
+    "name": "Demo User",
+    "email": "demo.user@example.com"
+   },
+   "to": [
+    {
+     "name": "Casey Sterling",
+     "email": "casey.sterling@fieldstonecapital.example"
+    }
+   ],
+   "subject": "Re: Senior Data Engineer at Fieldstone Capital: quick intro call?",
+   "snippet": "Hi Casey, Thanks for reaching out. Thursday afternoon works well for me and I am happy to share more about my background then. Best, Demo User",
+   "body": "Hi Casey,\n\nThanks for reaching out. Thursday afternoon works well for me and I am happy to share more about my background then.\n\nBest,\nDemo User",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_e1842516",
+   "thread_id": "t_2a6afc33",
+   "date": "2026-10-10T12:30:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Noel Jessup",
+    "email": "noel.jessup@verdantgrid.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Offer: Data Engineering Manager at Verdant Grid",
+   "snippet": "Hi Demo, We are pleased to offer you the Data Engineering Manager position at Verdant Grid. The offer letter and compensation details are attached. Warmly, Noel Jessup Sourcing Lead, Verdant Grid",
+   "body": "Hi Demo,\n\nWe are pleased to offer you the Data Engineering Manager position at Verdant Grid. The offer letter and compensation details are attached.\n\nWarmly,\nNoel Jessup\nSourcing Lead, Verdant Grid",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "offer",
+   "labels": []
+  },
+  {
+   "id": "m_59ae7d9a",
+   "thread_id": "t_383f0b35",
+   "date": "2026-10-10T12:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Umbra Security Careers",
+    "email": "careers@jobs.umbrasecurity.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: Data Engineering Manager",
+   "snippet": "Hi Demo, Your application for Data Engineering Manager at Umbra Security is in. We read every one and will follow up if there is a fit. The Umbra Security Talent Team",
+   "body": "Hi Demo,\n\nYour application for Data Engineering Manager at Umbra Security is in. We read every one and will follow up if there is a fit.\n\nThe Umbra Security Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_c1acf4e0",
+   "thread_id": "t_3b36f225",
+   "date": "2026-10-10T12:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Marlo Lockhart",
+    "email": "marlo.lockhart@quillfeather.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Analytics Engineer at Quillfeather: quick intro call?",
+   "snippet": "Hi Demo, I am Marlo Lockhart, Talent Acquisition Partner at Quillfeather. Your application for the Analytics Engineer role caught our eye. Do you have 20 minutes this week for an introductory call? Thanks, Marlo Lockhart Talent Acquisition Partner, Quillfeather",
+   "body": "Hi Demo,\n\nI am Marlo Lockhart, Talent Acquisition Partner at Quillfeather. Your application for the Analytics Engineer role caught our eye. Do you have 20 minutes this week for an introductory call?\n\nThanks,\nMarlo Lockhart\nTalent Acquisition Partner, Quillfeather",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_1c9e7915",
+   "thread_id": "t_9cf45ed0",
+   "date": "2026-10-10T13:15:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Zephyr Travel Careers",
+    "email": "careers@jobs.zephyrtravel.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Update on your application to Zephyr Travel",
+   "snippet": "Hi Demo, Thank you for your interest in the Senior Analytics Engineer role at Zephyr Travel. After careful review we have decided to move forward with other candidates. We will keep your details on file. The Zephyr Travel Talent Team",
+   "body": "Hi Demo,\n\nThank you for your interest in the Senior Analytics Engineer role at Zephyr Travel. After careful review we have decided to move forward with other candidates. We will keep your details on file.\n\nThe Zephyr Travel Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_be88e757",
+   "thread_id": "t_11295d3f",
+   "date": "2026-10-10T13:50:00Z",
+   "direction": "out",
+   "from": {
+    "name": "Demo User",
+    "email": "demo.user@example.com"
+   },
+   "to": [
+    {
+     "name": "Kendall Hartwell",
+     "email": "kendall.hartwell@alderbank.example"
+    }
+   ],
+   "subject": "Re: Alderbank: technical assessment for Principal Data Engineer",
+   "snippet": "Hi Kendall, Attached is my solution along with a short write-up of the modeling choices. Happy to walk through it. Best, Demo User",
+   "body": "Hi Kendall,\n\nAttached is my solution along with a short write-up of the modeling choices. Happy to walk through it.\n\nBest,\nDemo User",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_3408057a",
+   "thread_id": "t_ba1874e6",
+   "date": "2026-10-10T14:00:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Avery Ellery",
+    "email": "avery.ellery@nightingalebio.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Following up on your Nightingale Bio application",
+   "snippet": "Hi Demo, Thank you for the time you put into the process. Unfortunately we will not be moving forward with your candidacy for the Senior Analytics Engineer role. We enjoyed meeting you. Best, Avery Ellery Technical Recruiter, Nightingale Bio",
+   "body": "Hi Demo,\n\nThank you for the time you put into the process. Unfortunately we will not be moving forward with your candidacy for the Senior Analytics Engineer role. We enjoyed meeting you.\n\nBest,\nAvery Ellery\nTechnical Recruiter, Nightingale Bio",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_70526ac9",
+   "thread_id": "t_9f3e6628",
+   "date": "2026-10-10T14:15:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Finley Fairchild",
+    "email": "finley.fairchild@cedarlinesystems.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Offer: Data Engineering Manager at Cedarline Systems",
+   "snippet": "Hi Demo, We are pleased to offer you the Data Engineering Manager position at Cedarline Systems. The offer letter and compensation details are attached. Warmly, Finley Fairchild Recruiting Coordinator, Cedarline Systems",
+   "body": "Hi Demo,\n\nWe are pleased to offer you the Data Engineering Manager position at Cedarline Systems. The offer letter and compensation details are attached.\n\nWarmly,\nFinley Fairchild\nRecruiting Coordinator, Cedarline Systems",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "offer",
+   "labels": []
+  },
+  {
+   "id": "m_ba631521",
+   "thread_id": "t_9caac8ec",
+   "date": "2026-10-10T14:15:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Jules Kerrigan",
+    "email": "jules.kerrigan@pinecrestmedia.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Invitation: Onsite loop with Pinecrest Media",
+   "snippet": "Jules Kerrigan has invited you to the virtual onsite for the Data Platform Engineer role. Sessions are listed in the calendar invite.",
+   "body": "Jules Kerrigan has invited you to the virtual onsite for the Data Platform Engineer role. Sessions are listed in the calendar invite.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "onsite",
+   "labels": []
+  },
+  {
+   "id": "m_89f1a3c2",
+   "thread_id": "t_15fef3ca",
+   "date": "2026-10-10T14:40:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Casey Sterling",
+    "email": "casey.sterling@fieldstonecapital.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Invitation: Recruiter screen with Fieldstone Capital",
+   "snippet": "Casey Sterling has invited you to a recruiter screen for the Senior Data Engineer role. Join with the link in the calendar invite.",
+   "body": "Casey Sterling has invited you to a recruiter screen for the Senior Data Engineer role. Join with the link in the calendar invite.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_719e21b0",
+   "thread_id": "t_3b36f225",
+   "date": "2026-10-10T14:45:00Z",
+   "direction": "out",
+   "from": {
+    "name": "Demo User",
+    "email": "demo.user@example.com"
+   },
+   "to": [
+    {
+     "name": "Marlo Lockhart",
+     "email": "marlo.lockhart@quillfeather.example"
+    }
+   ],
+   "subject": "Re: Analytics Engineer at Quillfeather: quick intro call?",
+   "snippet": "Hi Marlo, Thanks for reaching out. Thursday afternoon works well for me and I am happy to share more about my background then. Best, Demo User",
+   "body": "Hi Marlo,\n\nThanks for reaching out. Thursday afternoon works well for me and I am happy to share more about my background then.\n\nBest,\nDemo User",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_107a4bd2",
+   "thread_id": "t_9bfe112b",
+   "date": "2026-10-10T15:00:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Devon Ingram",
+    "email": "devon.ingram@brightwaterlabs.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Next step: conversation with the hiring manager",
+   "snippet": "Hi Demo, Thanks for talking with us. We would like to set up a conversation with the hiring manager for the Lead Analytics Engineer role. Best, Devon Ingram Engineering Manager, Data Platform, Brightwater Labs",
+   "body": "Hi Demo,\n\nThanks for talking with us. We would like to set up a conversation with the hiring manager for the Lead Analytics Engineer role.\n\nBest,\nDevon Ingram\nEngineering Manager, Data Platform, Brightwater Labs",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "hiring_manager",
+   "labels": []
+  },
+  {
+   "id": "m_150a1c74",
+   "thread_id": "t_4e6283e4",
+   "date": "2026-10-10T15:00:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Glasshouse Retail Careers",
+    "email": "careers@jobs.glasshouseretail.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Glasshouse Retail is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Senior Data Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Senior Data Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_fe0f6180",
+   "thread_id": "t_8dc28825",
+   "date": "2026-10-10T15:05:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Greer Mercer",
+    "email": "greer.mercer@redwoodledger.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Following up on your Redwood Ledger application",
+   "snippet": "Hi Demo, Thank you for the time you put into the process. Unfortunately we will not be moving forward with your candidacy for the Machine Learning Engineer role. We enjoyed meeting you. Best, Greer Mercer Senior Recruiter, Redwood Ledger",
+   "body": "Hi Demo,\n\nThank you for the time you put into the process. Unfortunately we will not be moving forward with your candidacy for the Machine Learning Engineer role. We enjoyed meeting you.\n\nBest,\nGreer Mercer\nSenior Recruiter, Redwood Ledger",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_5630fb2a",
+   "thread_id": "t_b2086493",
+   "date": "2026-10-11T12:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Reese Whitlock",
+    "email": "reese.whitlock@umbrasecurity.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Data Engineering Manager at Umbra Security: quick intro call?",
+   "snippet": "Hi Demo, I am Reese Whitlock, Technical Recruiter at Umbra Security. Your application for the Data Engineering Manager role caught our eye. Do you have 20 minutes this week for an introductory call? Thanks, Reese Whitlock Technical Recruiter, Umbra Security",
+   "body": "Hi Demo,\n\nI am Reese Whitlock, Technical Recruiter at Umbra Security. Your application for the Data Engineering Manager role caught our eye. Do you have 20 minutes this week for an introductory call?\n\nThanks,\nReese Whitlock\nTechnical Recruiter, Umbra Security",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "recruiter_screen",
+   "labels": []
+  },
+  {
+   "id": "m_d729f73b",
+   "thread_id": "t_c9fb35c3",
+   "date": "2026-10-11T13:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Juniper Row Careers",
+    "email": "careers@jobs.juniperrow.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "We received your application: Data Engineering Manager",
+   "snippet": "Hi Demo, Your application for Data Engineering Manager at Juniper Row is in. We read every one and will follow up if there is a fit. The Juniper Row Talent Team",
+   "body": "Hi Demo,\n\nYour application for Data Engineering Manager at Juniper Row is in. We read every one and will follow up if there is a fit.\n\nThe Juniper Row Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "applied",
+   "labels": []
+  },
+  {
+   "id": "m_be3b62ae",
+   "thread_id": "t_52af24d8",
+   "date": "2026-10-11T14:05:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Harbor & Pine Careers",
+    "email": "careers@jobs.harborpine.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Update on your application to Harbor & Pine",
+   "snippet": "Hi Demo, Thank you for your interest in the Senior Analytics Engineer role at Harbor & Pine. After careful review we have decided to move forward with other candidates. We will keep your details on file. The Harbor & Pine Talent Team",
+   "body": "Hi Demo,\n\nThank you for your interest in the Senior Analytics Engineer role at Harbor & Pine. After careful review we have decided to move forward with other candidates. We will keep your details on file.\n\nThe Harbor & Pine Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_64427e9d",
+   "thread_id": "t_2a6afc33",
+   "date": "2026-10-11T14:30:00Z",
+   "direction": "out",
+   "from": {
+    "name": "Demo User",
+    "email": "demo.user@example.com"
+   },
+   "to": [
+    {
+     "name": "Noel Jessup",
+     "email": "noel.jessup@verdantgrid.example"
+    }
+   ],
+   "subject": "Re: Offer: Data Engineering Manager at Verdant Grid",
+   "snippet": "Hi Noel, I am happy to accept the offer. Thank you to everyone on the team. Please send the onboarding details. Best, Demo User",
+   "body": "Hi Noel,\n\nI am happy to accept the offer. Thank you to everyone on the team. Please send the onboarding details.\n\nBest,\nDemo User",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "accepted",
+   "labels": []
+  },
+  {
+   "id": "m_cb52acec",
+   "thread_id": "t_b3f9b9ac",
+   "date": "2026-10-11T14:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Oakmont Insurance Careers",
+    "email": "careers@jobs.oakmontinsurance.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Oakmont Insurance is under review",
+   "snippet": "Hi Demo, A quick note to say your application for BI Engineer is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for BI Engineer is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_53f3ed69",
+   "thread_id": "t_9cc9297f",
+   "date": "2026-10-12T12:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Emberlight Health Careers",
+    "email": "careers@jobs.emberlighthealth.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Update on your application to Emberlight Health",
+   "snippet": "Hi Demo, Thank you for your interest in the Analytics Engineer role at Emberlight Health. After careful review we have decided to move forward with other candidates. We will keep your details on file. The Emberlight Health Talent Team",
+   "body": "Hi Demo,\n\nThank you for your interest in the Analytics Engineer role at Emberlight Health. After careful review we have decided to move forward with other candidates. We will keep your details on file.\n\nThe Emberlight Health Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_42d9a9e7",
+   "thread_id": "t_d106301c",
+   "date": "2026-10-12T13:10:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Emerson Calloway",
+    "email": "emerson.calloway@lanternworks.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Following up on your Lanternworks application",
+   "snippet": "Hi Demo, Thank you for the time you put into the process. Unfortunately we will not be moving forward with your candidacy for the Analytics Engineer role. We enjoyed meeting you. Best, Emerson Calloway Senior Recruiter, Lanternworks",
+   "body": "Hi Demo,\n\nThank you for the time you put into the process. Unfortunately we will not be moving forward with your candidacy for the Analytics Engineer role. We enjoyed meeting you.\n\nBest,\nEmerson Calloway\nSenior Recruiter, Lanternworks",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_40f0fbb7",
+   "thread_id": "t_c9fb35c3",
+   "date": "2026-10-12T13:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Juniper Row Careers",
+    "email": "careers@jobs.juniperrow.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Your application to Juniper Row is under review",
+   "snippet": "Hi Demo, A quick note to say your application for Data Engineering Manager is still being reviewed. We appreciate your patience.",
+   "body": "Hi Demo,\n\nA quick note to say your application for Data Engineering Manager is still being reviewed. We appreciate your patience.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_960875cb",
+   "thread_id": "t_3b36f225",
+   "date": "2026-10-13T12:45:00Z",
+   "direction": "out",
+   "from": {
+    "name": "Demo User",
+    "email": "demo.user@example.com"
+   },
+   "to": [
+    {
+     "name": "Marlo Lockhart",
+     "email": "marlo.lockhart@quillfeather.example"
+    }
+   ],
+   "subject": "Withdrawing my application",
+   "snippet": "Hi Marlo, I have decided to pursue other opportunities and would like to withdraw my application for Analytics Engineer. Thank you for your time. Best, Demo User",
+   "body": "Hi Marlo,\n\nI have decided to pursue other opportunities and would like to withdraw my application for Analytics Engineer. Thank you for your time.\n\nBest,\nDemo User",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "withdrew",
+   "labels": []
+  },
+  {
+   "id": "m_6aee40e3",
+   "thread_id": "t_c9fb35c3",
+   "date": "2026-10-13T13:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Juniper Row Careers",
+    "email": "careers@jobs.juniperrow.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Juniper Row: a few optional questions",
+   "snippet": "Hi Demo, To help us review your application for Data Engineering Manager, please complete a short optional questionnaire. It takes about five minutes.",
+   "body": "Hi Demo,\n\nTo help us review your application for Data Engineering Manager, please complete a short optional questionnaire. It takes about five minutes.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_56222d53",
+   "thread_id": "t_11295d3f",
+   "date": "2026-10-13T13:50:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Kendall Hartwell",
+    "email": "kendall.hartwell@alderbank.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Following up on your Alderbank application",
+   "snippet": "Hi Demo, Thank you for the time you put into the process. Unfortunately we will not be moving forward with your candidacy for the Principal Data Engineer role. We enjoyed meeting you. Best, Kendall Hartwell Sourcing Lead, Alderbank",
+   "body": "Hi Demo,\n\nThank you for the time you put into the process. Unfortunately we will not be moving forward with your candidacy for the Principal Data Engineer role. We enjoyed meeting you.\n\nBest,\nKendall Hartwell\nSourcing Lead, Alderbank",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_c39d3057",
+   "thread_id": "t_9bfe112b",
+   "date": "2026-10-13T15:00:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Sasha Dunmore",
+    "email": "sasha.dunmore@brightwaterlabs.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Following up on your Brightwater Labs application",
+   "snippet": "Hi Demo, Thank you for the time you put into the process. Unfortunately we will not be moving forward with your candidacy for the Lead Analytics Engineer role. We enjoyed meeting you. Best, Sasha Dunmore Recruiting Coordinator, Brightwater Labs",
+   "body": "Hi Demo,\n\nThank you for the time you put into the process. Unfortunately we will not be moving forward with your candidacy for the Lead Analytics Engineer role. We enjoyed meeting you.\n\nBest,\nSasha Dunmore\nRecruiting Coordinator, Brightwater Labs",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_d1e4750d",
+   "thread_id": "t_4e6283e4",
+   "date": "2026-10-13T15:00:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Glasshouse Retail Careers",
+    "email": "careers@jobs.glasshouseretail.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Update on your application to Glasshouse Retail",
+   "snippet": "Hi Demo, Thank you for your interest in the Senior Data Engineer role at Glasshouse Retail. After careful review we have decided to move forward with other candidates. We will keep your details on file. The Glasshouse Retail Talent Team",
+   "body": "Hi Demo,\n\nThank you for your interest in the Senior Data Engineer role at Glasshouse Retail. After careful review we have decided to move forward with other candidates. We will keep your details on file.\n\nThe Glasshouse Retail Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  },
+  {
+   "id": "m_0e95ef57",
+   "thread_id": "t_b2086493",
+   "date": "2026-10-14T12:45:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Reese Whitlock",
+    "email": "reese.whitlock@umbrasecurity.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Invitation: Technical interview with Umbra Security",
+   "snippet": "Reese Whitlock has invited you to a technical interview for the Data Engineering Manager role. The invite has the video link.",
+   "body": "Reese Whitlock has invited you to a technical interview for the Data Engineering Manager role. The invite has the video link.",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "technical",
+   "labels": []
+  },
+  {
+   "id": "m_9541b806",
+   "thread_id": "t_b2086493",
+   "date": "2026-10-14T13:45:00Z",
+   "direction": "out",
+   "from": {
+    "name": "Demo User",
+    "email": "demo.user@example.com"
+   },
+   "to": [
+    {
+     "name": "Reese Whitlock",
+     "email": "reese.whitlock@umbrasecurity.example"
+    }
+   ],
+   "subject": "Re: Data Engineering Manager at Umbra Security: quick intro call?",
+   "snippet": "Hi Reese, Thanks for reaching out. Thursday afternoon works well for me and I am happy to share more about my background then. Best, Demo User",
+   "body": "Hi Reese,\n\nThanks for reaching out. Thursday afternoon works well for me and I am happy to share more about my background then.\n\nBest,\nDemo User",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": null,
+   "labels": []
+  },
+  {
+   "id": "m_c2dcbade",
+   "thread_id": "t_b3f9b9ac",
+   "date": "2026-10-14T14:35:00Z",
+   "direction": "in",
+   "from": {
+    "name": "Oakmont Insurance Careers",
+    "email": "careers@jobs.oakmontinsurance.example"
+   },
+   "to": [
+    {
+     "name": "Demo User",
+     "email": "demo.user@example.com"
+    }
+   ],
+   "subject": "Update on your application to Oakmont Insurance",
+   "snippet": "Hi Demo, Thank you for your interest in the BI Engineer role at Oakmont Insurance. After careful review we have decided to move forward with other candidates. We will keep your details on file. The Oakmont Insurance Talent Team",
+   "body": "Hi Demo,\n\nThank you for your interest in the BI Engineer role at Oakmont Insurance. After careful review we have decided to move forward with other candidates. We will keep your details on file.\n\nThe Oakmont Insurance Talent Team",
+   "gmail_url": "https://mail.google.com/mail/u/0/#all/demo",
+   "stage_signal": "rejected",
+   "labels": []
+  }
+ ],
+ "events": [
+  {
+   "id": "e_01",
+   "application_id": "app_64558d",
+   "at": "2026-10-08T15:00:00Z",
+   "end_at": "2026-10-08T15:45:00Z",
+   "title": "Recruiter screen: Brightwater Labs",
+   "attendees": [
+    {
+     "name": "Sasha Dunmore",
+     "email": "sasha.dunmore@brightwaterlabs.example"
+    }
+   ],
+   "stage": "recruiter_screen",
+   "message_id": "m_51976960"
+  },
+  {
+   "id": "e_02",
+   "application_id": "app_66b94c",
+   "at": "2026-10-11T15:00:00Z",
+   "end_at": "2026-10-11T15:45:00Z",
+   "title": "Recruiter screen: Fieldstone Capital",
+   "attendees": [
+    {
+     "name": "Casey Sterling",
+     "email": "casey.sterling@fieldstonecapital.example"
+    }
+   ],
+   "stage": "recruiter_screen",
+   "message_id": "m_89f1a3c2"
+  },
+  {
+   "id": "e_03",
+   "application_id": "app_53dd99",
+   "at": "2026-10-11T15:00:00Z",
+   "end_at": "2026-10-11T15:45:00Z",
+   "title": "Onsite loop: Pinecrest Media",
+   "attendees": [
+    {
+     "name": "Jules Kerrigan",
+     "email": "jules.kerrigan@pinecrestmedia.example"
+    }
+   ],
+   "stage": "onsite",
+   "message_id": "m_ba631521"
+  },
+  {
+   "id": "e_04",
+   "application_id": "app_0ae239",
+   "at": "2026-10-15T15:00:00Z",
+   "end_at": "2026-10-15T15:45:00Z",
+   "title": "Technical interview: Umbra Security",
+   "attendees": [
+    {
+     "name": "Reese Whitlock",
+     "email": "reese.whitlock@umbrasecurity.example"
+    }
+   ],
+   "stage": "technical",
+   "message_id": "m_0e95ef57"
+  }
+ ],
+ "stats": {
+  "applications": 28,
+  "active": 6,
+  "offers": 2,
+  "rejected": 16,
+  "ghosted": 4,
+  "response_rate": 0.821
+ }
+}

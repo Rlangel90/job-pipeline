@@ -1,0 +1,70 @@
+name: Scan mailbox
+
+# Reads the mailbox over IMAP, rebuilds the pipeline, encrypts it, and commits docs/data/pipeline.enc.
+# Runs every six hours. Logs on a public repository are public, so the scanner prints counts only.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      HAS_PRIVATE_REPO: ${{ secrets.PRIVATE_DATA_TOKEN != '' }}
+    steps:
+      - name: Check out this repository
+        uses: actions/checkout@v4
+
+      - name: Check out the private overrides repository
+        if: env.HAS_PRIVATE_REPO == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/job-pipeline-private
+          token: ${{ secrets.PRIVATE_DATA_TOKEN }}
+          path: private
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build the pipeline
+        env:
+          CI: "true"
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DATA_PASSPHRASE: ${{ secrets.DATA_PASSPHRASE }}
+          SCAN_SINCE: ${{ vars.SCAN_SINCE }}
+        run: |
+          set -e
+          args=""
+          if [ -f private/overrides.yml ]; then args="--overrides private/overrides.yml"; fi
+          if [ -f docs/data/pipeline.enc ]; then args="$args --previous docs/data/pipeline.enc"; fi
+          python -m scanner build --since "${SCAN_SINCE:-2026-10-01}" --out docs/data/pipeline.enc $args
+
+      - name: Commit the refreshed data
+        run: |
+          set -e
+          if git diff --quiet -- docs/data/pipeline.enc; then
+            echo "No change to commit."
+            exit 0
+          fi
+          git config user.name "pipeline-bot"
+          git config user.email "pipeline-bot@users.noreply.github.com"
+          git add docs/data/pipeline.enc
+          git commit -m "Refresh pipeline data"
+          git push

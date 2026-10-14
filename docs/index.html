@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <title>Job pipeline</title>
+  <meta name="description" content="A job application tracker that reads its own mailbox: Sankey of the pipeline, drill-down to each application, contacts, and the job description.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232a78d6'/%3E%3Cpath d='M7 10h7l5 6-5 6H7z' fill='%23fff' opacity='.9'/%3E%3Cpath d='M16 10h7l4 6-4 6h-7l5-6z' fill='%23fff' opacity='.55'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <h1>Job pipeline</h1>
+      <span id="mode-badge" class="badge badge-demo">Demo data</span>
+    </div>
+    <div class="actions">
+      <button id="unlock-btn" class="btn btn-primary" type="button" hidden>Unlock</button>
+      <button id="lock-btn" class="btn" type="button" hidden>Lock</button>
+    </div>
+  </header>
+
+  <main>
+    <p id="notice" class="notice" hidden></p>
+
+    <section class="stats" id="stats" aria-label="Summary"></section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Where applications go</h2>
+        <span class="meta" id="generated"></span>
+      </div>
+      <div id="sankey-wrap" class="sankey-wrap">
+        <svg id="sankey" role="img" aria-label="Sankey diagram of applications moving through hiring stages"></svg>
+      </div>
+      <div id="legend" class="legend" aria-label="Stages"></div>
+      <div id="selection" class="selection" hidden>
+        <span id="selection-text"></span>
+        <button id="clear-sel" class="btn btn-small" type="button">Show all</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Applications <span id="app-count" class="count"></span></h2>
+        <div class="controls">
+          <input id="search" type="search" placeholder="Search company, role, person" aria-label="Search applications" autocomplete="off">
+          <div class="seg" role="group" aria-label="View">
+            <button type="button" data-view="cards" class="on">Cards</button>
+            <button type="button" data-view="table">Table</button>
+          </div>
+        </div>
+      </div>
+      <div id="list" class="list"></div>
+    </section>
+
+    <footer class="foot">
+      <span id="foot-text">Refreshed from the mailbox every six hours. Real data stays encrypted until unlocked on this device.</span>
+    </footer>
+  </main>
+
+  <div id="sheet-backdrop" class="backdrop" hidden></div>
+  <aside id="sheet" class="sheet" hidden aria-label="Application details">
+    <div class="sheet-head">
+      <div class="handle" aria-hidden="true"></div>
+      <button id="sheet-close" class="btn btn-small" type="button">Close</button>
+    </div>
+    <div id="sheet-body" class="sheet-body"></div>
+  </aside>
+
+  <div id="unlock" class="modal" hidden>
+    <form id="unlock-form" class="modal-card">
+      <h2>Unlock real data</h2>
+      <p class="muted">The pipeline file is encrypted. Decryption happens in this browser only.</p>
+      <label class="field">
+        <span>Passphrase</span>
+        <input id="passphrase" type="password" autocomplete="current-password" required>
+      </label>
+      <label class="check">
+        <input id="remember" type="checkbox">
+        <span>Remember on this device</span>
+      </label>
+      <p id="unlock-error" class="error" hidden></p>
+      <div class="modal-actions">
+        <button type="button" id="unlock-cancel" class="btn">Cancel</button>
+        <button type="submit" id="unlock-submit" class="btn btn-primary">Unlock</button>
+      </div>
+    </form>
+  </div>
+
+  <div id="tooltip" class="tooltip" hidden></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-sankey/0.12.3/d3-sankey.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

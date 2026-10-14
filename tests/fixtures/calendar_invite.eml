@@ -1,0 +1,36 @@
+From: Jane Doe <jane.doe@acme.example>
+To: Alex Morgan <owner@example.com>
+Subject: Invitation: Phone screen: Acme Corp @ Tue Oct 6, 2026 10am - 10:30am (CDT)
+Date: Mon, 05 Oct 2026 20:00:00 +0000
+Message-ID: <cal-1002@acme.example>
+X-GM-MSGID: 1000000000000001002
+X-GM-THRID: 2000000000000001002
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="BOUNDARY42"
+
+--BOUNDARY42
+Content-Type: text/plain; charset=utf-8
+
+Jane Doe has invited you to a phone screen.
+When: Tue Oct 6, 2026 10am - 10:30am (CDT)
+
+--BOUNDARY42
+Content-Type: text/calendar; charset=utf-8; method=REQUEST
+
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:abc123@acme.example
+DTSTART;TZID=America/Chicago:20261006T100000
+DTEND;TZID=America/Chicago:20261006T103000
+SUMMARY:Phone screen: Acme Corp
+ORGANIZER;CN=Jane Doe:mailto:jane.doe@acme.example
+ATTENDEE;CN=Alex Morgan;PARTSTAT=NEEDS-ACTION;RSVP=TRUE:mailto:owner@example.com
+ATTENDEE;CN="Doe, Jane";PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0
+ :mailto:jane.doe@acme.example
+DESCRIPTION:Intro call about the Senior Data Engineer role.
+END:VEVENT
+END:VCALENDAR
+
+--BOUNDARY42--

@@ -1,0 +1,3 @@
+#!/bin/sh
+# Refuse commit messages containing guarded terms.
+python tools/guard_terms.py --message "$1"

@@ -1,0 +1,6 @@
+cryptography>=42.0
+PyYAML>=6.0
+beautifulsoup4>=4.12
+requests>=2.31
+jsonschema>=4.20
+tzdata>=2024.1; sys_platform == "win32"

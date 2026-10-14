@@ -1,0 +1,8 @@
+#!/bin/sh
+# Refuse to commit staged content containing guarded terms, or any secrets-looking file.
+set -e
+python tools/guard_terms.py --staged
+if git diff --cached --name-only | grep -iE '(^|/)(\.env|overrides\.yml|.*\.mbox|plain.*\.json)$' >/dev/null; then
+  echo "Blocked: a private file is staged." >&2
+  exit 1
+fi

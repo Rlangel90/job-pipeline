@@ -1,0 +1,23 @@
+applications:
+  - match: {company: "Harborlight", role: "Analytics Engineer"}
+    company: "Harborlight Health"
+    notes: "Referral from a friend."
+  - match: {company: "Orbitwave"}
+    ignore: true
+  - match: {company: "Quarry Systems"}
+    stage: rejected
+    stage_at: 2026-10-10
+    notes: "Recruiter said budget froze."
+  - match: {company: "Acme Corp"}
+    description_file: job_text/acme-sde.md
+    contacts:
+      - {name: "Jane Doe", email: "jane.doe@acme.example", title: "Senior Technical Recruiter"}
+  - company: "Stealth startup"
+    role: "Head of Data"
+    applied_at: 2026-10-03
+    stage: recruiter_screen
+    stage_at: 2026-10-07
+    source: recruiter
+ignore_senders: ["newsletter@example.com"]
+ignore_subjects_matching: ["^Weekly digest"]
+ghost_after_days: 21

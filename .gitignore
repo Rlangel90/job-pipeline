@@ -1,0 +1,22 @@
+# local state and secrets
+.env
+.env.*
+*.mbox
+overrides.yml
+private/
+descriptions/
+/plain*.json
+/tmp/
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+# editor / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.pytest_tmp/
